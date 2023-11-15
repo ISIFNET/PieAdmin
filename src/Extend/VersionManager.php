@@ -1,11 +1,11 @@
 <?php
 
-namespace Dcat\Admin\Extend;
+namespace Isifnet\PieAdmin\Extend;
 
 use Carbon\Carbon;
-use Dcat\Admin\Models\Extension;
-use Dcat\Admin\Models\ExtensionHistory;
-use Dcat\Admin\Support\DatabaseUpdater;
+use Isifnet\PieAdmin\Models\Extension;
+use Isifnet\PieAdmin\Models\ExtensionHistory;
+use Isifnet\PieAdmin\Support\DatabaseUpdater;
 use Illuminate\Support\Arr;
 
 /**

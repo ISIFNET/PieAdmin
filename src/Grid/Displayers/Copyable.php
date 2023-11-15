@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Grid\Displayers;
+namespace Isifnet\PieAdmin\Grid\Displayers;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Support\Helper;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Support\Helper;
 
 /**
  * Class Copyable.
@@ -16,16 +16,16 @@ class Copyable extends AbstractDisplayer
     {
         $script = <<<'JS'
 $('.grid-column-copyable').off('click').on('click', function (e) {
-    
+
     var content = $(this).data('content');
-    
+
     var $temp = $('<input>');
-    
+
     $("body").append($temp);
     $temp.val(content).select();
     document.execCommand("copy");
     $temp.remove();
-    
+
     $(this).tooltip('show');
 });
 JS;

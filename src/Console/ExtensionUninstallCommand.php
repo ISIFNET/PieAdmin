@@ -1,13 +1,13 @@
 <?php
 
-namespace Dcat\Admin\Console;
+namespace Isifnet\PieAdmin\Console;
 
-use Dcat\Admin\Admin;
+use Isifnet\PieAdmin\Admin;
 use Illuminate\Console\Command;
 
 class ExtensionUninstallCommand extends Command
 {
-    protected $signature = 'admin:ext-uninstall 
+    protected $signature = 'admin:ext-uninstall
     {name : The name of the extension. Eg: author-name/extension-name}';
 
     protected $description = 'Uninstall an existing extension';

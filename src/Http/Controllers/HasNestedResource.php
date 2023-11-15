@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Http\Controllers;
+namespace Isifnet\PieAdmin\Http\Controllers;
 
-use Dcat\Admin\Layout\Content;
+use Isifnet\PieAdmin\Layout\Content;
 
 trait HasNestedResource
 {

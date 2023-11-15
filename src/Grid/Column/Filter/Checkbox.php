@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Grid\Column\Filter;
+namespace Isifnet\PieAdmin\Grid\Column\Filter;
 
-use Dcat\Admin\Admin;
+use Isifnet\PieAdmin\Admin;
 
 trait Checkbox
 {
@@ -48,7 +48,7 @@ JS;
         <i class="feather icon-filter"></i>
     </a>
     <ul class="dropdown-menu" role="menu" style="padding: 10px;left: -70px;border-radius: 0;font-weight:normal;background:#fff">
-        
+
         <li>
             <ul style='padding: 0;'>
                 <li class="dropdown-item" style="margin: 0;padding-left:5px">

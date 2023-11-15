@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Grid\Filter\Layout;
+namespace Isifnet\PieAdmin\Grid\Filter\Layout;
 
-use Dcat\Admin\Grid\Filter;
+use Isifnet\PieAdmin\Grid\Filter;
 use Illuminate\Support\Collection;
 
 class Layout

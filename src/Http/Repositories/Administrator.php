@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Http\Repositories;
+namespace Isifnet\PieAdmin\Http\Repositories;
 
-use Dcat\Admin\Grid;
-use Dcat\Admin\Repositories\EloquentRepository;
+use Isifnet\PieAdmin\Grid;
+use Isifnet\PieAdmin\Repositories\EloquentRepository;
 use Illuminate\Pagination\AbstractPaginator;
 
 class Administrator extends EloquentRepository

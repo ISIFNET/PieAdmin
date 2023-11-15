@@ -1,10 +1,10 @@
 <?php
 
-namespace Dcat\Admin\Http\Controllers;
+namespace Isifnet\PieAdmin\Http\Controllers;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Contracts\LazyRenderable;
-use Dcat\Admin\Support\Helper;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Contracts\LazyRenderable;
+use Isifnet\PieAdmin\Support\Helper;
 use Illuminate\Http\Request;
 
 class RenderableController

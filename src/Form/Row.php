@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Form;
+namespace Isifnet\PieAdmin\Form;
 
-use Dcat\Admin\Form;
-use Dcat\Admin\Widgets\Form as WidgetForm;
+use Isifnet\PieAdmin\Form;
+use Isifnet\PieAdmin\Widgets\Form as WidgetForm;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Http\Actions\Extensions;
+namespace Isifnet\PieAdmin\Http\Actions\Extensions;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Grid\RowAction;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Grid\RowAction;
 
 class Update extends RowAction
 {

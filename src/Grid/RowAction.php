@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\Grid;
+namespace Isifnet\PieAdmin\Grid;
 
 use Illuminate\Support\Fluent;
 

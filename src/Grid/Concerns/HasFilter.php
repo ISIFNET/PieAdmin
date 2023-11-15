@@ -1,11 +1,11 @@
 <?php
 
-namespace Dcat\Admin\Grid\Concerns;
+namespace Isifnet\PieAdmin\Grid\Concerns;
 
 use Closure;
-use Dcat\Admin\Admin;
-use Dcat\Admin\Grid;
-use Dcat\Admin\Support\Helper;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Grid;
+use Isifnet\PieAdmin\Support\Helper;
 use Illuminate\Support\Collection;
 
 trait HasFilter

@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Form\Events;
+namespace Isifnet\PieAdmin\Form\Events;
 
-use Dcat\Admin\Form;
+use Isifnet\PieAdmin\Form;
 
 abstract class Event
 {

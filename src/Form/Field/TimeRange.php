@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\Form\Field;
+namespace Isifnet\PieAdmin\Form\Field;
 
 class TimeRange extends DateRange
 {

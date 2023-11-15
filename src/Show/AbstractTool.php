@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Show;
+namespace Isifnet\PieAdmin\Show;
 
-use Dcat\Admin\Actions\Action;
-use Dcat\Admin\Show;
+use Isifnet\PieAdmin\Actions\Action;
+use Isifnet\PieAdmin\Show;
 
 abstract class AbstractTool extends Action
 {

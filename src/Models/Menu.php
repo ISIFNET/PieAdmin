@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Models;
+namespace Isifnet\PieAdmin\Models;
 
-use Dcat\Admin\Traits\HasDateTimeFormatter;
-use Dcat\Admin\Traits\ModelTree;
+use Isifnet\PieAdmin\Traits\HasDateTimeFormatter;
+use Isifnet\PieAdmin\Traits\ModelTree;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Spatie\EloquentSortable\Sortable;

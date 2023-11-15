@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Tree\Actions;
+namespace Isifnet\PieAdmin\Tree\Actions;
 
-use Dcat\Admin\Tree\RowAction;
+use Isifnet\PieAdmin\Tree\RowAction;
 
 class Delete extends RowAction
 {
@@ -11,8 +11,8 @@ class Delete extends RowAction
         $url = request()->fullUrl();
 
         return <<<HTML
-<a href="javascript:void(0);" 
-    data-message="ID - {$this->getKey()}" 
+<a href="javascript:void(0);"
+    data-message="ID - {$this->getKey()}"
     data-redirect="{$url}"
     data-url="{$this->resource()}/{$this->getKey()}" data-action="delete"><i class="feather icon-trash"></i>&nbsp;</a>
 HTML;

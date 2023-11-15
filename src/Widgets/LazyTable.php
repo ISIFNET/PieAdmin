@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Widgets;
+namespace Isifnet\PieAdmin\Widgets;
 
-use Dcat\Admin\Grid\LazyRenderable;
+use Isifnet\PieAdmin\Grid\LazyRenderable;
 use Illuminate\Support\Str;
 
 class LazyTable extends Widget
@@ -160,7 +160,7 @@ JS;
         ]);
 
         return <<<HTML
-<div {$this->formatHtmlAttributes()} style="min-height: 200px"></div>        
+<div {$this->formatHtmlAttributes()} style="min-height: 200px"></div>
 HTML;
     }
 }

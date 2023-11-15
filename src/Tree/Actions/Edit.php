@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Tree\Actions;
+namespace Isifnet\PieAdmin\Tree\Actions;
 
-use Dcat\Admin\Tree\RowAction;
+use Isifnet\PieAdmin\Tree\RowAction;
 
 class Edit extends RowAction
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Grid\Column;
+namespace Isifnet\PieAdmin\Grid\Column;
 
-use Dcat\Admin\Widgets\Tooltip;
+use Isifnet\PieAdmin\Widgets\Tooltip;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Str;
 

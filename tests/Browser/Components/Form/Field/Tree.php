@@ -2,7 +2,7 @@
 
 namespace Tests\Browser\Components\Form\Field;
 
-use Dcat\Admin\Form\Field;
+use Isifnet\PieAdmin\Form\Field;
 use Laravel\Dusk\Browser;
 use Tests\Browser\Components\Component;
 
@@ -64,8 +64,8 @@ class Tree extends Component
         $values = json_encode((array) $values);
 
         $browser->script(<<<JS
-var tree = $('{$this->getTreeSelector($browser)}');        
-        
+var tree = $('{$this->getTreeSelector($browser)}');
+
 tree.jstree("uncheck_all");
 tree.jstree("select_node", {$values});
 JS
@@ -82,7 +82,7 @@ JS
     public function expand(Browser $browser)
     {
         $browser->script(<<<JS
-$('{$this->getTreeSelector($browser)}').jstree("open_all");        
+$('{$this->getTreeSelector($browser)}').jstree("open_all");
 JS
         );
     }
@@ -96,7 +96,7 @@ JS
     public function checkAll(Browser $browser)
     {
         $browser->script(<<<JS
-$('{$this->getTreeSelector($browser)}').jstree("check_all");        
+$('{$this->getTreeSelector($browser)}').jstree("check_all");
 JS
         );
 
@@ -112,7 +112,7 @@ JS
     public function unCheckAll(Browser $browser)
     {
         $browser->script(<<<JS
-$('{$this->getTreeSelector($browser)}').jstree("uncheck_all");        
+$('{$this->getTreeSelector($browser)}').jstree("uncheck_all");
 JS
         );
 

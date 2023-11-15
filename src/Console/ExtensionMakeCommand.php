@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Console;
+namespace Isifnet\PieAdmin\Console;
 
-use Dcat\Admin\Support\Helper;
+use Isifnet\PieAdmin\Support\Helper;
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;
@@ -14,8 +14,8 @@ class ExtensionMakeCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'admin:ext-make 
-    {name : The name of the extension. Eg: author-name/extension-name} 
+    protected $signature = 'admin:ext-make
+    {name : The name of the extension. Eg: author-name/extension-name}
     {--namespace= : The namespace of the extension.}
     {--theme}
     ';

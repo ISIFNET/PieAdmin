@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\Contracts;
+namespace Isifnet\PieAdmin\Contracts;
 
 interface ExceptionHandler
 {

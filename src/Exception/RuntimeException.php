@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\Exception;
+namespace Isifnet\PieAdmin\Exception;
 
 class RuntimeException extends AdminException
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Dcat\Admin\Http\Controllers;
+namespace Isifnet\PieAdmin\Http\Controllers;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Layout\Content;
-use Dcat\Admin\Layout\Row;
-use Dcat\Admin\Widgets\Tab;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Layout\Content;
+use Isifnet\PieAdmin\Layout\Row;
+use Isifnet\PieAdmin\Widgets\Tab;
 use Illuminate\Routing\Controller;
 
 class IconController extends Controller

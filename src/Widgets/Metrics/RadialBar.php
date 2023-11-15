@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Widgets\Metrics;
+namespace Isifnet\PieAdmin\Widgets\Metrics;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Support\Helper;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Support\Helper;
 use Illuminate\Contracts\Support\Renderable;
 
 /**
@@ -182,7 +182,7 @@ HTML;
 <div class="card-content">
     <div class="row">
         {$content}
-        
+
         <div class="col-sm-{$this->contentWidth[1]} d-flex {$justifyClass}">
             <div></div>
             <div>{$this->renderChart()}</div>

@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Http;
+namespace Isifnet\PieAdmin\Http;
 
-use Dcat\Admin\Exception\AdminException;
-use Dcat\Admin\Support\Helper;
+use Isifnet\PieAdmin\Exception\AdminException;
+use Isifnet\PieAdmin\Support\Helper;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Support\MessageBag;

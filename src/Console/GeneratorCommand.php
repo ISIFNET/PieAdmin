@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Console;
+namespace Isifnet\PieAdmin\Console;
 
-use Dcat\Admin\Support\Helper;
+use Isifnet\PieAdmin\Support\Helper;
 use Illuminate\Console\Command;
 use Illuminate\Console\Concerns\CreatesMatchingTest;
 use Illuminate\Filesystem\Filesystem;

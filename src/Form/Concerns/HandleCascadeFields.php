@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Form\Concerns;
+namespace Isifnet\PieAdmin\Form\Concerns;
 
-use Dcat\Admin\Form\Field;
+use Isifnet\PieAdmin\Form\Field;
 
 trait HandleCascadeFields
 {

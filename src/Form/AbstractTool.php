@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Form;
+namespace Isifnet\PieAdmin\Form;
 
-use Dcat\Admin\Actions\Action;
-use Dcat\Admin\Form;
+use Isifnet\PieAdmin\Actions\Action;
+use Isifnet\PieAdmin\Form;
 
 abstract class AbstractTool extends Action
 {

@@ -8,11 +8,11 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Dcat\Admin\Contracts;
+namespace Isifnet\PieAdmin\Contracts;
 
-use Dcat\Admin\Form;
-use Dcat\Admin\Grid;
-use Dcat\Admin\Show;
+use Isifnet\PieAdmin\Form;
+use Isifnet\PieAdmin\Grid;
+use Isifnet\PieAdmin\Show;
 use Illuminate\Support\Collection;
 
 interface Repository
@@ -73,7 +73,7 @@ interface Repository
      * 新增记录.
      *
      * @param  Form  $form
-     * @return int|bool|\Dcat\Admin\Http\JsonResponse
+     * @return int|bool|\Isifnet\PieAdmin\Http\JsonResponse
      */
     public function store(Form $form);
 
@@ -89,7 +89,7 @@ interface Repository
      * 更新数据.
      *
      * @param  Form  $form
-     * @return bool|\Dcat\Admin\Http\JsonResponse
+     * @return bool|\Isifnet\PieAdmin\Http\JsonResponse
      */
     public function update(Form $form);
 
@@ -98,7 +98,7 @@ interface Repository
      *
      * @param  Form  $form
      * @param  array  $deletingData
-     * @return mixed|\Dcat\Admin\Http\JsonResponse
+     * @return mixed|\Isifnet\PieAdmin\Http\JsonResponse
      */
     public function delete(Form $form, array $deletingData);
 

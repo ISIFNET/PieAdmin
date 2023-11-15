@@ -1,10 +1,10 @@
 <?php
 
-namespace Dcat\Admin\Http\Actions\Extensions;
+namespace Isifnet\PieAdmin\Http\Actions\Extensions;
 
-use Dcat\Admin\Grid\Tools\AbstractTool;
-use Dcat\Admin\Http\Forms\InstallFromLocal as InstallFromLocalForm;
-use Dcat\Admin\Widgets\Modal;
+use Isifnet\PieAdmin\Grid\Tools\AbstractTool;
+use Isifnet\PieAdmin\Http\Forms\InstallFromLocal as InstallFromLocalForm;
+use Isifnet\PieAdmin\Widgets\Modal;
 
 class InstallFromLocal extends AbstractTool
 {

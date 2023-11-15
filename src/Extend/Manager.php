@@ -1,14 +1,14 @@
 <?php
 
-namespace Dcat\Admin\Extend;
+namespace Isifnet\PieAdmin\Extend;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Exception\AdminException;
-use Dcat\Admin\Exception\RuntimeException;
-use Dcat\Admin\Models\Extension as ExtensionModel;
-use Dcat\Admin\Support\Composer;
-use Dcat\Admin\Support\Helper;
-use Dcat\Admin\Support\Zip;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Exception\AdminException;
+use Isifnet\PieAdmin\Exception\RuntimeException;
+use Isifnet\PieAdmin\Models\Extension as ExtensionModel;
+use Isifnet\PieAdmin\Support\Composer;
+use Isifnet\PieAdmin\Support\Helper;
+use Isifnet\PieAdmin\Support\Zip;
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Collection;
@@ -287,7 +287,7 @@ class Manager
     /**
      * 添加扩展.
      *
-     * @param  \Dcat\Admin\Extend\ServiceProvider  $serviceProvider
+     * @param  \Isifnet\PieAdmin\Extend\ServiceProvider  $serviceProvider
      */
     public function addExtension(ServiceProvider $serviceProvider)
     {

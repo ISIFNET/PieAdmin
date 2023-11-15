@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\Models;
+namespace Isifnet\PieAdmin\Models;
 
 use Illuminate\Database\Seeder;
 

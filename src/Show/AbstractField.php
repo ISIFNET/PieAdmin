@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\Show;
+namespace Isifnet\PieAdmin\Show;
 
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Fluent;

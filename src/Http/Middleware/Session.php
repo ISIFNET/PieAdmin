@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\Http\Middleware;
+namespace Isifnet\PieAdmin\Http\Middleware;
 
 use Illuminate\Http\Request;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Grid\Tools;
+namespace Isifnet\PieAdmin\Grid\Tools;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Grid;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Grid;
 use Illuminate\Support\Arr;
 
 class RowSelector
@@ -101,7 +101,7 @@ HTML;
 <div class="vs-checkbox-con vs-checkbox-{$this->style} checkbox-grid checkbox-grid-column">
     <input type="checkbox" class="{$this->grid->getRowName()}-checkbox" data-id="{$id}" {$checked} {$disabled} data-label="{$title}">
     <span class="vs-checkbox"><span class="vs-checkbox--check"><i class="vs-icon feather icon-check"></i></span></span>
-</div>        
+</div>
 EOT;
     }
 
@@ -114,7 +114,7 @@ EOT;
             <<<JS
 var selector = Dcat.RowSelector({
     checkboxSelector: '.{$this->grid->getRowName()}-checkbox',
-    selectAllSelector: '.{$this->grid->getSelectAllName()}', 
+    selectAllSelector: '.{$this->grid->getSelectAllName()}',
     clickRow: {$clickable},
     background: '{$background}',
 });

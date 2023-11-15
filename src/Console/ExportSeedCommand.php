@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\Console;
+namespace Isifnet\PieAdmin\Console;
 
 use Illuminate\Console\Command;
 
@@ -85,7 +85,7 @@ class ExportSeedCommand extends Command
 
     protected function getTableName($config)
     {
-        return trim(str_replace('Dcat\\Admin\\', '', config($config)), '\\');
+        return trim(str_replace('Isifnet\\PieAdmin\\', '', config($config)), '\\');
     }
 
     /**

@@ -1,10 +1,10 @@
 <?php
 
-namespace Dcat\Admin\Http\Auth;
+namespace Isifnet\PieAdmin\Http\Auth;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Layout\Content;
-use Dcat\Admin\Support\Helper;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Layout\Content;
+use Isifnet\PieAdmin\Support\Helper;
 use Illuminate\Contracts\Support\Arrayable;
 use Symfony\Component\HttpFoundation\Response;
 

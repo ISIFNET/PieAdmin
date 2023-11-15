@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Models;
+namespace Isifnet\PieAdmin\Models;
 
-use Dcat\Admin\Traits\HasDateTimeFormatter;
-use Dcat\Admin\Traits\HasPermissions;
+use Isifnet\PieAdmin\Traits\HasDateTimeFormatter;
+use Isifnet\PieAdmin\Traits\HasPermissions;
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
 use Illuminate\Contracts\Auth\Access\Authorizable;

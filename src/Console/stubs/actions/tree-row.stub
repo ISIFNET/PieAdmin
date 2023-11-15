@@ -2,9 +2,9 @@
 
 namespace DummyNamespace;
 
-use Dcat\Admin\Tree\RowAction;
-use Dcat\Admin\Actions\Response;
-use Dcat\Admin\Traits\HasPermissions;
+use Isifnet\PieAdmin\Tree\RowAction;
+use Isifnet\PieAdmin\Actions\Response;
+use Isifnet\PieAdmin\Traits\HasPermissions;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;

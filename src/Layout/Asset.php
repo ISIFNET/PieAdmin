@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Layout;
+namespace Isifnet\PieAdmin\Layout;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Color;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Color;
 use Illuminate\Support\Str;
 
 class Asset

@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Form\Field;
+namespace Isifnet\PieAdmin\Form\Field;
 
-use Dcat\Admin\Support\Helper;
+use Isifnet\PieAdmin\Support\Helper;
 
 class MultipleSelectTable extends SelectTable
 {

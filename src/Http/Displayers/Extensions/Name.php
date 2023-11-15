@@ -1,12 +1,12 @@
 <?php
 
-namespace Dcat\Admin\Http\Displayers\Extensions;
+namespace Isifnet\PieAdmin\Http\Displayers\Extensions;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Grid\Displayers\AbstractDisplayer;
-use Dcat\Admin\Http\Actions\Extensions\Disable;
-use Dcat\Admin\Http\Actions\Extensions\Enable;
-use Dcat\Admin\Http\Actions\Extensions\Uninstall;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Grid\Displayers\AbstractDisplayer;
+use Isifnet\PieAdmin\Http\Actions\Extensions\Disable;
+use Isifnet\PieAdmin\Http\Actions\Extensions\Enable;
+use Isifnet\PieAdmin\Http\Actions\Extensions\Uninstall;
 
 class Name extends AbstractDisplayer
 {

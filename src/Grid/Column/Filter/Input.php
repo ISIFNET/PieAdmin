@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Grid\Column\Filter;
+namespace Isifnet\PieAdmin\Grid\Column\Filter;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Grid\Column\ValueFilter;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Grid\Column\ValueFilter;
 
 trait Input
 {

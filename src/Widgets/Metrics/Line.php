@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\Widgets\Metrics;
+namespace Isifnet\PieAdmin\Widgets\Metrics;
 
 /**
  * 折/曲线图卡片.

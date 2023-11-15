@@ -2,10 +2,10 @@
 
 namespace Tests\Controllers;
 
-use Dcat\Admin\Form;
-use Dcat\Admin\Grid;
-use Dcat\Admin\Http\Controllers\AdminController;
-use Dcat\Admin\Show;
+use Isifnet\PieAdmin\Form;
+use Isifnet\PieAdmin\Grid;
+use Isifnet\PieAdmin\Http\Controllers\AdminController;
+use Isifnet\PieAdmin\Show;
 use Tests\Models\Painter;
 use Tests\Models\Painting;
 

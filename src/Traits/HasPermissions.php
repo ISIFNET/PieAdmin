@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Traits;
+namespace Isifnet\PieAdmin\Traits;
 
-use Dcat\Admin\Support\Helper;
+use Isifnet\PieAdmin\Support\Helper;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Support\Collection;
 

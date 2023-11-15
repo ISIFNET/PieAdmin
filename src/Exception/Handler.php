@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Exception;
+namespace Isifnet\PieAdmin\Exception;
 
-use Dcat\Admin\Contracts\ExceptionHandler;
-use Dcat\Admin\Support\Helper;
+use Isifnet\PieAdmin\Contracts\ExceptionHandler;
+use Isifnet\PieAdmin\Support\Helper;
 use Illuminate\Http\Exceptions\HttpResponseException;
 use Illuminate\Support\MessageBag;
 use Illuminate\Support\ViewErrorBag;

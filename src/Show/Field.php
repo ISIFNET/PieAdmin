@@ -1,13 +1,13 @@
 <?php
 
-namespace Dcat\Admin\Show;
+namespace Isifnet\PieAdmin\Show;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Show;
-use Dcat\Admin\Support\Helper;
-use Dcat\Admin\Traits\HasBuilderEvents;
-use Dcat\Admin\Traits\HasVariables;
-use Dcat\Admin\Widgets\Dump;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Show;
+use Isifnet\PieAdmin\Support\Helper;
+use Isifnet\PieAdmin\Traits\HasBuilderEvents;
+use Isifnet\PieAdmin\Traits\HasVariables;
+use Isifnet\PieAdmin\Widgets\Dump;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Arr;

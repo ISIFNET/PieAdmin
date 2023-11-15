@@ -1,22 +1,22 @@
 <?php
 
-namespace Dcat\Admin;
+namespace Isifnet\PieAdmin;
 
-use Dcat\Admin\Contracts\ExceptionHandler;
-use Dcat\Admin\Exception\Handler;
-use Dcat\Admin\Extend\Manager;
-use Dcat\Admin\Extend\UpdateManager;
-use Dcat\Admin\Extend\VersionManager;
-use Dcat\Admin\Layout\Asset;
-use Dcat\Admin\Layout\Content;
-use Dcat\Admin\Layout\Menu;
-use Dcat\Admin\Layout\Navbar;
-use Dcat\Admin\Layout\SectionManager;
-use Dcat\Admin\Support\Context;
-use Dcat\Admin\Support\Helper;
-use Dcat\Admin\Support\Setting;
-use Dcat\Admin\Support\Translator;
-use Dcat\Admin\Support\WebUploader;
+use Isifnet\PieAdmin\Contracts\ExceptionHandler;
+use Isifnet\PieAdmin\Exception\Handler;
+use Isifnet\PieAdmin\Extend\Manager;
+use Isifnet\PieAdmin\Extend\UpdateManager;
+use Isifnet\PieAdmin\Extend\VersionManager;
+use Isifnet\PieAdmin\Layout\Asset;
+use Isifnet\PieAdmin\Layout\Content;
+use Isifnet\PieAdmin\Layout\Menu;
+use Isifnet\PieAdmin\Layout\Navbar;
+use Isifnet\PieAdmin\Layout\SectionManager;
+use Isifnet\PieAdmin\Support\Context;
+use Isifnet\PieAdmin\Support\Helper;
+use Isifnet\PieAdmin\Support\Setting;
+use Isifnet\PieAdmin\Support\Translator;
+use Isifnet\PieAdmin\Support\WebUploader;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;

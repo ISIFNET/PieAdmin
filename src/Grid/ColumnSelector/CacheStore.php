@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\Grid\ColumnSelector;
+namespace Isifnet\PieAdmin\Grid\ColumnSelector;
 
 class CacheStore extends SessionStore
 {

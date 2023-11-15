@@ -1,17 +1,17 @@
 <?php
 
-namespace Dcat\Admin;
+namespace Isifnet\PieAdmin;
 
 use Closure;
-use Dcat\Admin\Contracts\TreeRepository;
-use Dcat\Admin\Exception\InvalidArgumentException;
-use Dcat\Admin\Repositories\EloquentRepository;
-use Dcat\Admin\Support\Helper;
-use Dcat\Admin\Traits\HasBuilderEvents;
-use Dcat\Admin\Traits\HasVariables;
-use Dcat\Admin\Tree\AbstractTool;
-use Dcat\Admin\Tree\Actions;
-use Dcat\Admin\Tree\Tools;
+use Isifnet\PieAdmin\Contracts\TreeRepository;
+use Isifnet\PieAdmin\Exception\InvalidArgumentException;
+use Isifnet\PieAdmin\Repositories\EloquentRepository;
+use Isifnet\PieAdmin\Support\Helper;
+use Isifnet\PieAdmin\Traits\HasBuilderEvents;
+use Isifnet\PieAdmin\Traits\HasVariables;
+use Isifnet\PieAdmin\Tree\AbstractTool;
+use Isifnet\PieAdmin\Tree\Actions;
+use Isifnet\PieAdmin\Tree\Tools;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Builder;

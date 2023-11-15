@@ -1,10 +1,10 @@
 <?php
 
-namespace Dcat\Admin\Form;
+namespace Isifnet\PieAdmin\Form;
 
-use Dcat\Admin\Form;
-use Dcat\Admin\Layout\Column;
-use Dcat\Admin\Widgets\Form as WidgetForm;
+use Isifnet\PieAdmin\Form;
+use Isifnet\PieAdmin\Layout\Column;
+use Isifnet\PieAdmin\Widgets\Form as WidgetForm;
 
 class Layout
 {
@@ -105,7 +105,7 @@ class Layout
         $this->column($width, function (Column $column) use ($callback) {
             $this->form->layoutColumn = $column;
 
-            $column->row(function (\Dcat\Admin\Layout\Row $row) use ($callback) {
+            $column->row(function (\Isifnet\PieAdmin\Layout\Row $row) use ($callback) {
                 $form = $this->form();
 
                 $form->layoutRow = $row;

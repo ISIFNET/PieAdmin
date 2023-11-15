@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Grid\Actions;
+namespace Isifnet\PieAdmin\Grid\Actions;
 
-use Dcat\Admin\Grid\RowAction;
+use Isifnet\PieAdmin\Grid\RowAction;
 
 class Edit extends RowAction
 {

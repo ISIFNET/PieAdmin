@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Grid\Tools;
+namespace Isifnet\PieAdmin\Grid\Tools;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Grid;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Grid;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Pagination\LengthAwarePaginator;
 

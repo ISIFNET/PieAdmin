@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\Widgets;
+namespace Isifnet\PieAdmin\Widgets;
 
 use Illuminate\Contracts\Support\Renderable;
 

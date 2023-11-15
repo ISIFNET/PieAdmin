@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Form\Field;
+namespace Isifnet\PieAdmin\Form\Field;
 
 use Closure;
-use Dcat\Admin\Form\Field;
+use Isifnet\PieAdmin\Form\Field;
 
 class Display extends Field
 {

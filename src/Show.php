@@ -1,19 +1,19 @@
 <?php
 
-namespace Dcat\Admin;
+namespace Isifnet\PieAdmin;
 
 use Closure;
-use Dcat\Admin\Contracts\Repository;
-use Dcat\Admin\Show\AbstractTool;
-use Dcat\Admin\Show\Divider;
-use Dcat\Admin\Show\Field;
-use Dcat\Admin\Show\Html;
-use Dcat\Admin\Show\Newline;
-use Dcat\Admin\Show\Panel;
-use Dcat\Admin\Show\Relation;
-use Dcat\Admin\Show\Row;
-use Dcat\Admin\Show\Tools;
-use Dcat\Admin\Traits\HasBuilderEvents;
+use Isifnet\PieAdmin\Contracts\Repository;
+use Isifnet\PieAdmin\Show\AbstractTool;
+use Isifnet\PieAdmin\Show\Divider;
+use Isifnet\PieAdmin\Show\Field;
+use Isifnet\PieAdmin\Show\Html;
+use Isifnet\PieAdmin\Show\Newline;
+use Isifnet\PieAdmin\Show\Panel;
+use Isifnet\PieAdmin\Show\Relation;
+use Isifnet\PieAdmin\Show\Row;
+use Isifnet\PieAdmin\Show\Tools;
+use Isifnet\PieAdmin\Traits\HasBuilderEvents;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;

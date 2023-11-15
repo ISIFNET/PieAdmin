@@ -1,10 +1,10 @@
 <?php
 
-namespace Dcat\Admin\Grid;
+namespace Isifnet\PieAdmin\Grid;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Grid;
-use Dcat\Admin\Support\LazyRenderable as Renderable;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Grid;
+use Isifnet\PieAdmin\Support\LazyRenderable as Renderable;
 
 abstract class LazyRenderable extends Renderable
 {

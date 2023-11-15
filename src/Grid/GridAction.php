@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Grid;
+namespace Isifnet\PieAdmin\Grid;
 
-use Dcat\Admin\Actions\Action;
-use Dcat\Admin\Grid;
+use Isifnet\PieAdmin\Actions\Action;
+use Isifnet\PieAdmin\Grid;
 
 /**
  * Class GridAction.

@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\Support;
+namespace Isifnet\PieAdmin\Support;
 
 class OutputFormatter extends \Symfony\Component\Console\Formatter\OutputFormatter
 {

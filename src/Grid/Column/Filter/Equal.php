@@ -1,10 +1,10 @@
 <?php
 
-namespace Dcat\Admin\Grid\Column\Filter;
+namespace Isifnet\PieAdmin\Grid\Column\Filter;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Grid\Column\Filter;
-use Dcat\Admin\Grid\Model;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Grid\Column\Filter;
+use Isifnet\PieAdmin\Grid\Model;
 
 class Equal extends Filter
 {

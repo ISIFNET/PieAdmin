@@ -1,10 +1,10 @@
 <?php
 
-namespace Dcat\Admin\Form;
+namespace Isifnet\PieAdmin\Form;
 
-use Dcat\Admin\Exception\RuntimeException;
-use Dcat\Admin\Form;
-use Dcat\Admin\Widgets\Form as WidgetForm;
+use Isifnet\PieAdmin\Exception\RuntimeException;
+use Isifnet\PieAdmin\Form;
+use Isifnet\PieAdmin\Widgets\Form as WidgetForm;
 
 /**
  * Class BlockForm.
@@ -30,7 +30,7 @@ class BlockForm extends WidgetForm
     protected $title;
 
     /**
-     * @var \Dcat\Admin\Layout\Row
+     * @var \Isifnet\PieAdmin\Layout\Row
      */
     public $layoutRow;
 

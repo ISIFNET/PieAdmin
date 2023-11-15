@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Form\Field;
+namespace Isifnet\PieAdmin\Form\Field;
 
-use Dcat\Admin\Admin;
+use Isifnet\PieAdmin\Admin;
 
 class Table extends ArrayField
 {

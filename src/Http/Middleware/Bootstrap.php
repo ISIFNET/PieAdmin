@@ -1,10 +1,10 @@
 <?php
 
-namespace Dcat\Admin\Http\Middleware;
+namespace Isifnet\PieAdmin\Http\Middleware;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Support\Helper;
-use Dcat\Admin\Widgets\DarkModeSwitcher;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Support\Helper;
+use Isifnet\PieAdmin\Widgets\DarkModeSwitcher;
 use Illuminate\Http\Request;
 
 class Bootstrap

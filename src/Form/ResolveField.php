@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\Form;
+namespace Isifnet\PieAdmin\Form;
 
 trait ResolveField
 {

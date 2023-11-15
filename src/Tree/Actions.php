@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Tree;
+namespace Isifnet\PieAdmin\Tree;
 
-use Dcat\Admin\Support\Helper;
-use Dcat\Admin\Tree;
+use Isifnet\PieAdmin\Support\Helper;
+use Isifnet\PieAdmin\Tree;
 use Illuminate\Contracts\Support\Renderable;
 
 class Actions implements Renderable
@@ -47,7 +47,7 @@ class Actions implements Renderable
     ];
 
     /**
-     * @param  string|Renderable|\Dcat\Admin\Actions\Action|\Illuminate\Contracts\Support\Htmlable  $action
+     * @param  string|Renderable|\Isifnet\PieAdmin\Actions\Action|\Illuminate\Contracts\Support\Htmlable  $action
      * @return $this
      */
     public function append($action)
@@ -60,7 +60,7 @@ class Actions implements Renderable
     }
 
     /**
-     * @param  string|Renderable|\Dcat\Admin\Actions\Action|\Illuminate\Contracts\Support\Htmlable  $action
+     * @param  string|Renderable|\Isifnet\PieAdmin\Actions\Action|\Illuminate\Contracts\Support\Htmlable  $action
      * @return $this
      */
     public function prepend($action)

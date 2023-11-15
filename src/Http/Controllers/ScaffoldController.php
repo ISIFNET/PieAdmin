@@ -1,16 +1,16 @@
 <?php
 
-namespace Dcat\Admin\Http\Controllers;
+namespace Isifnet\PieAdmin\Http\Controllers;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Http\Auth\Permission;
-use Dcat\Admin\Layout\Content;
-use Dcat\Admin\Scaffold\ControllerCreator;
-use Dcat\Admin\Scaffold\LangCreator;
-use Dcat\Admin\Scaffold\MigrationCreator;
-use Dcat\Admin\Scaffold\ModelCreator;
-use Dcat\Admin\Scaffold\RepositoryCreator;
-use Dcat\Admin\Support\Helper;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Http\Auth\Permission;
+use Isifnet\PieAdmin\Layout\Content;
+use Isifnet\PieAdmin\Scaffold\ControllerCreator;
+use Isifnet\PieAdmin\Scaffold\LangCreator;
+use Isifnet\PieAdmin\Scaffold\MigrationCreator;
+use Isifnet\PieAdmin\Scaffold\ModelCreator;
+use Isifnet\PieAdmin\Scaffold\RepositoryCreator;
+use Isifnet\PieAdmin\Support\Helper;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Arr;

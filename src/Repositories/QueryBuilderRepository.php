@@ -1,12 +1,12 @@
 <?php
 
-namespace Dcat\Admin\Repositories;
+namespace Isifnet\PieAdmin\Repositories;
 
-use Dcat\Admin\Contracts\TreeRepository;
-use Dcat\Admin\Exception\RuntimeException;
-use Dcat\Admin\Form;
-use Dcat\Admin\Grid;
-use Dcat\Admin\Show;
+use Isifnet\PieAdmin\Contracts\TreeRepository;
+use Isifnet\PieAdmin\Exception\RuntimeException;
+use Isifnet\PieAdmin\Form;
+use Isifnet\PieAdmin\Grid;
+use Isifnet\PieAdmin\Show;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;

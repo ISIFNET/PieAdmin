@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Traits;
+namespace Isifnet\PieAdmin\Traits;
 
-use Dcat\Admin\Admin;
+use Isifnet\PieAdmin\Admin;
 
 /**
  * Trait LazyWidget.

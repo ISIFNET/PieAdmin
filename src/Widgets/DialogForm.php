@@ -1,11 +1,11 @@
 <?php
 
-namespace Dcat\Admin\Widgets;
+namespace Isifnet\PieAdmin\Widgets;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Form;
-use Dcat\Admin\Layout\Content;
-use Dcat\Admin\Support\Helper;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Form;
+use Isifnet\PieAdmin\Layout\Content;
+use Isifnet\PieAdmin\Support\Helper;
 use Illuminate\Contracts\Support\Arrayable;
 
 class DialogForm

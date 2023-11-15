@@ -1,14 +1,14 @@
 <?php
 
-namespace Dcat\Admin\Widgets;
+namespace Isifnet\PieAdmin\Widgets;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Contracts\LazyRenderable;
-use Dcat\Admin\Grid\LazyRenderable as LazyGrid;
-use Dcat\Admin\Layout\Content;
-use Dcat\Admin\Support\Helper;
-use Dcat\Admin\Traits\HasHtmlAttributes;
-use Dcat\Admin\Traits\HasVariables;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Contracts\LazyRenderable;
+use Isifnet\PieAdmin\Grid\LazyRenderable as LazyGrid;
+use Isifnet\PieAdmin\Layout\Content;
+use Isifnet\PieAdmin\Support\Helper;
+use Isifnet\PieAdmin\Traits\HasHtmlAttributes;
+use Isifnet\PieAdmin\Traits\HasVariables;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Arr;

@@ -1,10 +1,10 @@
 <?php
 
-namespace Dcat\Admin\Grid\Concerns;
+namespace Isifnet\PieAdmin\Grid\Concerns;
 
-use Dcat\Admin\Exception\InvalidArgumentException;
-use Dcat\Admin\Grid\Column;
-use Dcat\Admin\Grid\ComplexHeader;
+use Isifnet\PieAdmin\Exception\InvalidArgumentException;
+use Isifnet\PieAdmin\Grid\Column;
+use Isifnet\PieAdmin\Grid\ComplexHeader;
 use Illuminate\Support\Collection;
 
 trait HasComplexHeaders

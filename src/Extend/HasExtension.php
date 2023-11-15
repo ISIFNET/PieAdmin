@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\Extend;
+namespace Isifnet\PieAdmin\Extend;
 
 trait HasExtension
 {

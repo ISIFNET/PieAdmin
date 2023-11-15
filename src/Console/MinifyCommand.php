@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Console;
+namespace Isifnet\PieAdmin\Console;
 
-use Dcat\Admin\Support\Helper;
+use Isifnet\PieAdmin\Support\Helper;
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
 use Symfony\Component\Process\Process;
@@ -17,8 +17,8 @@ class MinifyCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'admin:minify {name} 
-        {--color= : Theme color code} 
+    protected $signature = 'admin:minify {name}
+        {--color= : Theme color code}
         {--publish : Publish assets files}';
 
     /**
@@ -101,7 +101,7 @@ class MinifyCommand extends Command
      */
     protected function publishAssets()
     {
-        $options = ['--provider' => 'Dcat\Admin\AdminServiceProvider', '--force' => true, '--tag' => 'dcat-admin-assets'];
+        $options = ['--provider' => 'Isifnet\PieAdmin\AdminServiceProvider', '--force' => true, '--tag' => 'dcat-admin-assets'];
 
         $this->call('vendor:publish', $options);
     }

@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Widgets;
+namespace Isifnet\PieAdmin\Widgets;
 
-use Dcat\Admin\Admin;
+use Isifnet\PieAdmin\Admin;
 use Illuminate\Contracts\Support\Renderable;
 
 class Tooltip extends Widget
@@ -128,11 +128,11 @@ $('{$this->selector}').on('mouseover', function () {
       time: 0,
       maxWidth: {$this->maxWidth},
     });
-    
+
     $(this).attr('layer-idx', idx);
 }).on('mouseleave', function () {
     layer.close($(this).attr('layer-idx'));
-    
+
     $(this).attr('layer-idx', '');
 });
 JS

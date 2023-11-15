@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Grid\Tools;
+namespace Isifnet\PieAdmin\Grid\Tools;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Grid\Filter;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Grid\Filter;
 use Illuminate\Support\Str;
 
 class FilterButton extends AbstractTool
@@ -19,7 +19,7 @@ class FilterButton extends AbstractTool
     protected $btnClassName;
 
     /**
-     * @return \Dcat\Admin\Grid\Filter
+     * @return \Isifnet\PieAdmin\Grid\Filter
      */
     protected function filter()
     {

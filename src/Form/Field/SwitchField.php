@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Form\Field;
+namespace Isifnet\PieAdmin\Form\Field;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Form\Field;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Form\Field;
 
 class SwitchField extends Field
 {

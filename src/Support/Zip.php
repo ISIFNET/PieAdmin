@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\Support;
+namespace Isifnet\PieAdmin\Support;
 
 /**
  * Zip helper.

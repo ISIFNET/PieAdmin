@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Http\Actions;
+namespace Isifnet\PieAdmin\Http\Actions;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Grid\RowAction;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Grid\RowAction;
 
 class ImportButton extends RowAction
 {
@@ -34,22 +34,22 @@ HTML;
 $('.import-extension').on('click', function () {
     var id = $(this).data('id'), req;
     if (req) return;
-    
+
     Dcat.confirm("{$text}", '', function () {
         req = 1;
-        
+
         Dcat.loading();
         $.post('$url?id='+id, {}, function (response) {
            Dcat.loading(false);
            req = 0;
-        
+
            if (!response.status) {
                Dcat.error(response.message);
            }
-           
+
            $('#app').prepend('<div class="row"><div class="col-md-12">'+response.content+'</div></div>');
         });
-        
+
     }, "$confirm", "$cancel");
 });
 JS

@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\Grid\Events;
+namespace Isifnet\PieAdmin\Grid\Events;
 
 class Fetching extends Event
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace Dcat\Admin\Console;
+namespace Isifnet\PieAdmin\Console;
 
-use Dcat\Admin\Admin;
+use Isifnet\PieAdmin\Admin;
 use Illuminate\Console\Command;
 
 class ExtensionEnableCommand extends Command
 {
-    protected $signature = 'admin:ext-enable 
+    protected $signature = 'admin:ext-enable
     {name : The name of the extension. Eg: author-name/extension-name}';
 
     protected $description = 'Enable an existing extension';

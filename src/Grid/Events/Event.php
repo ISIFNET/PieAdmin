@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Grid\Events;
+namespace Isifnet\PieAdmin\Grid\Events;
 
-use Dcat\Admin\Grid;
+use Isifnet\PieAdmin\Grid;
 
 abstract class Event
 {

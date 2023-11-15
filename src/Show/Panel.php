@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Show;
+namespace Isifnet\PieAdmin\Show;
 
-use Dcat\Admin\Show;
-use Dcat\Admin\Traits\HasVariables;
+use Isifnet\PieAdmin\Show;
+use Isifnet\PieAdmin\Traits\HasVariables;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;
 

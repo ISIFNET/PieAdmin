@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Form\Field;
+namespace Isifnet\PieAdmin\Form\Field;
 
-use Dcat\Admin\Form\Field;
+use Isifnet\PieAdmin\Form\Field;
 
 class Divide extends Field
 {

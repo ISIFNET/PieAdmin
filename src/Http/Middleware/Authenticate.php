@@ -1,10 +1,10 @@
 <?php
 
-namespace Dcat\Admin\Http\Middleware;
+namespace Isifnet\PieAdmin\Http\Middleware;
 
 use Closure;
-use Dcat\Admin\Admin;
-use Dcat\Admin\Support\Helper;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Support\Helper;
 use Illuminate\Http\Request;
 
 class Authenticate

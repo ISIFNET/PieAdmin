@@ -1,19 +1,19 @@
 <?php
 
-namespace Dcat\Admin\Grid\Concerns;
+namespace Isifnet\PieAdmin\Grid\Concerns;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Grid\Events\Fetched;
-use Dcat\Admin\Grid\Events\Fetching;
-use Dcat\Admin\Repositories\EloquentRepository;
-use Dcat\Admin\Support\Helper;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Grid\Events\Fetched;
+use Isifnet\PieAdmin\Grid\Events\Fetching;
+use Isifnet\PieAdmin\Repositories\EloquentRepository;
+use Isifnet\PieAdmin\Support\Helper;
 use Illuminate\Support\Collection;
 
 /**
  * Trait HasTree.
  *
  *
- * @method \Dcat\Admin\Grid grid()
+ * @method \Isifnet\PieAdmin\Grid grid()
  */
 trait HasTree
 {

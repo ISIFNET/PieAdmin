@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Form\Concerns;
+namespace Isifnet\PieAdmin\Form\Concerns;
 
 use Closure;
-use Dcat\Admin\Form\Row;
+use Isifnet\PieAdmin\Form\Row;
 
 trait HasRows
 {

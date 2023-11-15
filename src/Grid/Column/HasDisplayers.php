@@ -1,13 +1,13 @@
 <?php
 
-namespace Dcat\Admin\Grid\Column;
+namespace Isifnet\PieAdmin\Grid\Column;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Exception\InvalidArgumentException;
-use Dcat\Admin\Grid;
-use Dcat\Admin\Grid\Column;
-use Dcat\Admin\Grid\Displayers\AbstractDisplayer;
-use Dcat\Admin\Grid\RowAction;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Exception\InvalidArgumentException;
+use Isifnet\PieAdmin\Grid;
+use Isifnet\PieAdmin\Grid\Column;
+use Isifnet\PieAdmin\Grid\Displayers\AbstractDisplayer;
+use Isifnet\PieAdmin\Grid\RowAction;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
@@ -244,7 +244,7 @@ trait HasDisplayers
     public function action($action)
     {
         if (! is_subclass_of($action, RowAction::class)) {
-            throw new InvalidArgumentException("Action class [$action] must be sub-class of [Dcat\Admin\Grid\RowAction]");
+            throw new InvalidArgumentException("Action class [$action] must be sub-class of [Isifnet\PieAdmin\Grid\RowAction]");
         }
 
         $grid = $this->grid;

@@ -1,11 +1,11 @@
 <?php
 
-namespace Dcat\Admin\Traits;
+namespace Isifnet\PieAdmin\Traits;
 
 trait HasAssets
 {
     /**
-     * @return \Dcat\Admin\Layout\Asset
+     * @return \Isifnet\PieAdmin\Layout\Asset
      */
     public static function asset()
     {

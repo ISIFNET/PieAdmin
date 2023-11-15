@@ -1,12 +1,12 @@
 <?php
 
-namespace Dcat\Admin\Http\Forms;
+namespace Isifnet\PieAdmin\Http\Forms;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Contracts\LazyRenderable;
-use Dcat\Admin\Exception\RuntimeException;
-use Dcat\Admin\Traits\LazyWidget;
-use Dcat\Admin\Widgets\Form;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Contracts\LazyRenderable;
+use Isifnet\PieAdmin\Exception\RuntimeException;
+use Isifnet\PieAdmin\Traits\LazyWidget;
+use Isifnet\PieAdmin\Widgets\Form;
 
 class InstallFromLocal extends Form implements LazyRenderable
 {

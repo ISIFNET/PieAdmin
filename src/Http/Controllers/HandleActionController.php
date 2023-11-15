@@ -1,10 +1,10 @@
 <?php
 
-namespace Dcat\Admin\Http\Controllers;
+namespace Isifnet\PieAdmin\Http\Controllers;
 
-use Dcat\Admin\Actions\Action;
-use Dcat\Admin\Actions\Response;
-use Dcat\Admin\Exception\AdminException;
+use Isifnet\PieAdmin\Actions\Action;
+use Isifnet\PieAdmin\Actions\Response;
+use Isifnet\PieAdmin\Exception\AdminException;
 use Illuminate\Http\Request;
 
 class HandleActionController

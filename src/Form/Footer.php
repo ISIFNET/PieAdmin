@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Form;
+namespace Isifnet\PieAdmin\Form;
 
-use Dcat\Admin\Widgets\Checkbox;
+use Isifnet\PieAdmin\Widgets\Checkbox;
 use Illuminate\Contracts\Support\Renderable;
 
 class Footer implements Renderable

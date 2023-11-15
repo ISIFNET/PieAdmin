@@ -8,7 +8,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Dcat\Admin\Contracts;
+namespace Isifnet\PieAdmin\Contracts;
 
 interface TreeRepository
 {

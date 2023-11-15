@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Actions;
+namespace Isifnet\PieAdmin\Actions;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Traits\HasAuthorization;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Traits\HasAuthorization;
 
 trait HasActionHandler
 {
@@ -112,7 +112,7 @@ Dcat.Action({
     calledClass: '{$this->makeCalledClass()}',
     before: {$this->actionScript()},
     html: {$this->handleHtmlResponse()},
-    success: {$this->resolverScript()}, 
+    success: {$this->resolverScript()},
     error: {$this->rejectScript()},
 });
 JS;

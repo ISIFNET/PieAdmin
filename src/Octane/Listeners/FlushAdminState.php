@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Octane\Listeners;
+namespace Isifnet\PieAdmin\Octane\Listeners;
 
-use Dcat\Admin\AdminServiceProvider;
+use Isifnet\PieAdmin\AdminServiceProvider;
 use Illuminate\Container\Container;
 
 class FlushAdminState

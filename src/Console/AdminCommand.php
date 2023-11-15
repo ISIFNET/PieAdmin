@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Console;
+namespace Isifnet\PieAdmin\Console;
 
-use Dcat\Admin\Admin;
+use Isifnet\PieAdmin\Admin;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Str;
@@ -27,13 +27,13 @@ class AdminCommand extends Command
      * @var string
      */
     public static $logo = <<<LOGO
-    
+
     ____   ______ ___   ______   ___     ____   __  ___ ____ _   __
    / __ \ / ____//   | /_  __/  /   |   / __ \ /  |/  //  _// | / /
-  / / / // /    / /| |  / /    / /| |  / / / // /|_/ / / / /  |/ / 
- / /_/ // /___ / ___ | / /    / ___ | / /_/ // /  / /_/ / / /|  /  
-/_____/ \____//_/  |_|/_/    /_/  |_|/_____//_/  /_//___//_/ |_/   
-                                                                                         
+  / / / // /    / /| |  / /    / /| |  / / / // /|_/ / / / /  |/ /
+ / /_/ // /___ / ___ | / /    / ___ | / /_/ // /  / /_/ / / /|  /
+/_____/ \____//_/  |_|/_/    /_/  |_|/_____//_/  /_//___//_/ |_/
+
 LOGO;
 
     /**

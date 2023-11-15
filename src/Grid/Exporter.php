@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Grid;
+namespace Isifnet\PieAdmin\Grid;
 
-use Dcat\Admin\Grid;
-use Dcat\Admin\Grid\Exporters\ExporterInterface;
+use Isifnet\PieAdmin\Grid;
+use Isifnet\PieAdmin\Grid\Exporters\ExporterInterface;
 
 /**
  * @mixin Grid\Exporters\AbstractExporter

@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Grid\Tools;
+namespace Isifnet\PieAdmin\Grid\Tools;
 
-use Dcat\Admin\Grid\BatchAction;
+use Isifnet\PieAdmin\Grid\BatchAction;
 
 class ActionDivider extends BatchAction
 {

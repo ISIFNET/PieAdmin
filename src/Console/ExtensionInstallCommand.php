@@ -1,15 +1,15 @@
 <?php
 
-namespace Dcat\Admin\Console;
+namespace Isifnet\PieAdmin\Console;
 
-use Dcat\Admin\Admin;
+use Isifnet\PieAdmin\Admin;
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
 
 class ExtensionInstallCommand extends Command
 {
-    protected $signature = 'admin:ext-install 
-    {name : The name of the extension. Eg: author-name/extension-name} 
+    protected $signature = 'admin:ext-install
+    {name : The name of the extension. Eg: author-name/extension-name}
     {--path= : The path of the extension.}';
 
     protected $description = 'Install an extension';

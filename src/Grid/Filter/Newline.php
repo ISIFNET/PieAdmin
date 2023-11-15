@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\Grid\Filter;
+namespace Isifnet\PieAdmin\Grid\Filter;
 
 class Newline extends AbstractFilter
 {

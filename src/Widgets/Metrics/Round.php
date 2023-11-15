@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Widgets\Metrics;
+namespace Isifnet\PieAdmin\Widgets\Metrics;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Support\JavaScript;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Support\JavaScript;
 
 /**
  * 环形图卡片.

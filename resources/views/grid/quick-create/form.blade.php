@@ -1,6 +1,6 @@
 <thead>
 <tr class="{{ $elementClass }} quick-create" style="cursor: pointer">
-    <td colspan="{{ $columnCount }}" style="background: {{ Dcat\Admin\Admin::color()->darken('#ededed', 1) }}">
+    <td colspan="{{ $columnCount }}" style="background: {{ Isifnet\PieAdmin\Admin::color()->darken('#ededed', 1) }}">
         <span class="create cursor-pointer" style="display: block;">
              <i class="feather icon-plus"></i>&nbsp;{{ __('admin.quick_create') }}
         </span>
@@ -9,7 +9,7 @@
             @foreach($fields as $field)
                 &nbsp;{!! $field->render() !!}
             @endforeach
-                &nbsp;
+            &nbsp;
             &nbsp;
             <button type="submit" class="btn btn-primary btn-sm">{{ __('admin.submit') }}</button>&nbsp;
             &nbsp;
@@ -58,13 +58,13 @@
             url: '{!! $url !!}',
             type: '{!! $method !!}',
             data: $(this).serialize(),
-            success: function(data) {
+            success: function (data) {
                 ctr.attr('submitting', '');
                 btn.buttonLoading(false);
 
                 Dcat.handleJsonResponse(data);
             },
-            error:function(xhq){
+            error: function (xhq) {
                 btn.buttonLoading(false);
                 ctr.attr('submitting', '');
                 var json = xhq.responseJSON;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Extend;
+namespace Isifnet\PieAdmin\Extend;
 
-use Dcat\Admin\Exception\AdminException;
+use Isifnet\PieAdmin\Exception\AdminException;
 use Illuminate\Support\Facades\Artisan;
 
 /**

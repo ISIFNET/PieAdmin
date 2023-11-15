@@ -1,10 +1,10 @@
 <?php
 
-namespace Dcat\Admin\Grid;
+namespace Isifnet\PieAdmin\Grid;
 
-use Dcat\Admin\Grid;
-use Dcat\Admin\Grid\Column\Help;
-use Dcat\Admin\Widgets\Widget;
+use Isifnet\PieAdmin\Grid;
+use Isifnet\PieAdmin\Grid\Column\Help;
+use Isifnet\PieAdmin\Widgets\Widget;
 use Illuminate\Support\Collection;
 
 class ComplexHeader extends Widget

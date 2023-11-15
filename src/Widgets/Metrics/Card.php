@@ -1,12 +1,12 @@
 <?php
 
-namespace Dcat\Admin\Widgets\Metrics;
+namespace Isifnet\PieAdmin\Widgets\Metrics;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Support\Helper;
-use Dcat\Admin\Traits\InteractsWithApi;
-use Dcat\Admin\Widgets\ApexCharts\Chart;
-use Dcat\Admin\Widgets\Widget;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Support\Helper;
+use Isifnet\PieAdmin\Traits\InteractsWithApi;
+use Isifnet\PieAdmin\Widgets\ApexCharts\Chart;
+use Isifnet\PieAdmin\Widgets\Widget;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
@@ -447,7 +447,7 @@ JS
 
         $this->fetched(
             <<<'JS'
-$card.loading(false);   
+$card.loading(false);
 $card.find('.metric-header').html(response.header);
 $card.find('.metric-content').html(response.content);
 JS

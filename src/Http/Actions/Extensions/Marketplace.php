@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Http\Actions\Extensions;
+namespace Isifnet\PieAdmin\Http\Actions\Extensions;
 
-use Dcat\Admin\Grid\Tools\AbstractTool;
+use Isifnet\PieAdmin\Grid\Tools\AbstractTool;
 
 class Marketplace extends AbstractTool
 {

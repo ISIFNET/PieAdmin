@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Actions;
+namespace Isifnet\PieAdmin\Actions;
 
-use Dcat\Admin\Http\JsonResponse;
+use Isifnet\PieAdmin\Http\JsonResponse;
 
 class Response extends JsonResponse
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Dcat\Admin\Grid\Concerns;
+namespace Isifnet\PieAdmin\Grid\Concerns;
 
-use Dcat\Admin\Contracts\Grid\ColumnSelectorStore;
-use Dcat\Admin\Grid;
-use Dcat\Admin\Grid\Tools\ColumnSelector;
-use Dcat\Admin\Support\Helper;
+use Isifnet\PieAdmin\Contracts\Grid\ColumnSelectorStore;
+use Isifnet\PieAdmin\Grid;
+use Isifnet\PieAdmin\Grid\Tools\ColumnSelector;
+use Isifnet\PieAdmin\Support\Helper;
 use Illuminate\Support\Collection;
 
 trait CanHidesColumns

@@ -1,14 +1,14 @@
 {
-    "name": "dcat/laravel-admin",
-    "description": "dcat admin",
+    "name": "isifnet/pieadmin",
+    "description": "Pie Admin",
     "type": "library",
-    "keywords": ["dcat", "laravel", "admin", "grid", "form", "laravel admin"],
-    "homepage": "https://github.com/jqhph/dcat-admin",
+    "keywords": [ "laravel", "admin", "grid", "form", "laravel admin"],
+    "homepage": "https://github.com/isifnet/pieadmin",
     "license": "MIT",
     "authors": [
         {
-            "name": "jqh",
-            "email": "841324345@qq.com"
+            "name": "ISIF Support",
+            "email": "support@isif.net"
         }
     ],
     "require": {
@@ -26,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Dcat\\Admin\\": "src/"
+            "Isifnet\\PieAdmin\\": "src/"
         },
         "files": [
             "src/Support/helpers.php"
@@ -34,7 +34,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Dcat\\Admin\\Tests\\": "tests/"
+            "Isifnet\\PieAdmin\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -44,7 +44,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Dcat\\Admin\\AdminServiceProvider"
+                "Isifnet\\PieAdmin\\AdminServiceProvider"
             ]
         }
     }

@@ -1,11 +1,11 @@
 <?php
 
-namespace Dcat\Admin\Http\Middleware;
+namespace Isifnet\PieAdmin\Http\Middleware;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Exception\RuntimeException;
-use Dcat\Admin\Http\Auth\Permission as Checker;
-use Dcat\Admin\Support\Helper;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Exception\RuntimeException;
+use Isifnet\PieAdmin\Http\Auth\Permission as Checker;
+use Isifnet\PieAdmin\Support\Helper;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 

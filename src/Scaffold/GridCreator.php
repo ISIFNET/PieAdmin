@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\Scaffold;
+namespace Isifnet\PieAdmin\Scaffold;
 
 trait GridCreator
 {
@@ -37,10 +37,10 @@ trait GridCreator
         }
 
         $rows[] = <<<EOF
-        
+
             \$grid->filter(function (Grid\Filter \$filter) {
                 \$filter->equal('$primaryKey');
-        
+
             });
 EOF;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Grid;
+namespace Isifnet\PieAdmin\Grid;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Grid;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Grid;
 use Illuminate\Support\Collection;
 
 class FixColumns

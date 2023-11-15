@@ -1,10 +1,10 @@
 <?php
 
-namespace Dcat\Admin\Support;
+namespace Isifnet\PieAdmin\Support;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Contracts\LazyRenderable as Renderable;
-use Dcat\Admin\Traits\LazyWidget;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Contracts\LazyRenderable as Renderable;
+use Isifnet\PieAdmin\Traits\LazyWidget;
 
 abstract class LazyRenderable implements Renderable
 {

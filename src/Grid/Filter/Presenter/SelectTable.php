@@ -1,11 +1,11 @@
 <?php
 
-namespace Dcat\Admin\Grid\Filter\Presenter;
+namespace Isifnet\PieAdmin\Grid\Filter\Presenter;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Grid\LazyRenderable;
-use Dcat\Admin\Support\Helper;
-use Dcat\Admin\Widgets\DialogTable;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Grid\LazyRenderable;
+use Isifnet\PieAdmin\Support\Helper;
+use Isifnet\PieAdmin\Widgets\DialogTable;
 use Illuminate\Support\Str;
 
 class SelectTable extends Presenter
@@ -173,7 +173,7 @@ class SelectTable extends Presenter
             <<<JS
 Dcat.init('#{$this->id}', function (self) {
     var dialogId = self.parent().find('{$this->dialog->getElementSelector()}').attr('id');
-    
+
     Dcat.grid.SelectTable({
         dialog: '[data-id="' + dialogId + '"]',
         container: '#{$this->id}',

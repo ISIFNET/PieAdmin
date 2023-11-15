@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin;
+namespace Isifnet\PieAdmin;
 
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Support\Facades\Route;

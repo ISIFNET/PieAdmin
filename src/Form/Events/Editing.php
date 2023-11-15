@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\Form\Events;
+namespace Isifnet\PieAdmin\Form\Events;
 
 class Editing extends Event
 {

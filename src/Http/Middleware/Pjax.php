@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Http\Middleware;
+namespace Isifnet\PieAdmin\Http\Middleware;
 
 use Closure;
-use Dcat\Admin\Admin;
+use Isifnet\PieAdmin\Admin;
 use Illuminate\Http\Request;
 use Illuminate\Support\MessageBag;
 use Symfony\Component\HttpFoundation\Response;

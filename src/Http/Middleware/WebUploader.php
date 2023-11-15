@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Http\Middleware;
+namespace Isifnet\PieAdmin\Http\Middleware;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Support\WebUploader as Uploader;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Support\WebUploader as Uploader;
 use Illuminate\Http\Request;
 
 /**

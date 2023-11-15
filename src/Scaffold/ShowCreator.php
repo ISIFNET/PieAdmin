@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\Scaffold;
+namespace Isifnet\PieAdmin\Scaffold;
 
 trait ShowCreator
 {

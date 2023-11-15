@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Support;
+namespace Isifnet\PieAdmin\Support;
 
-use Dcat\Admin\Admin;
+use Isifnet\PieAdmin\Admin;
 
 class Translator
 {

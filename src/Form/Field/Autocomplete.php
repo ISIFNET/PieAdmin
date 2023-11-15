@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Form\Field;
+namespace Isifnet\PieAdmin\Form\Field;
 
-use Dcat\Admin\Support\Helper;
-use Dcat\Admin\Support\JavaScript;
+use Isifnet\PieAdmin\Support\Helper;
+use Isifnet\PieAdmin\Support\JavaScript;
 
 class Autocomplete extends Text
 {

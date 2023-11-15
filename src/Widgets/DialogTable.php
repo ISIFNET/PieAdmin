@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Widgets;
+namespace Isifnet\PieAdmin\Widgets;
 
-use Dcat\Admin\Grid\LazyRenderable;
-use Dcat\Admin\Support\Helper;
+use Isifnet\PieAdmin\Grid\LazyRenderable;
+use Isifnet\PieAdmin\Support\Helper;
 use Illuminate\Contracts\Support\Renderable;
 
 class DialogTable extends Widget

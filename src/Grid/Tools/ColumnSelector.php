@@ -1,10 +1,10 @@
 <?php
 
-namespace Dcat\Admin\Grid\Tools;
+namespace Isifnet\PieAdmin\Grid\Tools;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Grid;
-use Dcat\Admin\Widgets\Checkbox;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Grid;
+use Isifnet\PieAdmin\Widgets\Checkbox;
 use Illuminate\Support\Collection;
 
 class ColumnSelector extends AbstractTool

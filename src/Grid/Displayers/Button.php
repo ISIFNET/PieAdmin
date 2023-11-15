@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\Grid\Displayers;
+namespace Isifnet\PieAdmin\Grid\Displayers;
 
 class Button extends AbstractDisplayer
 {

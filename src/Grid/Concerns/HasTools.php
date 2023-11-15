@@ -1,11 +1,11 @@
 <?php
 
-namespace Dcat\Admin\Grid\Concerns;
+namespace Isifnet\PieAdmin\Grid\Concerns;
 
 use Closure;
-use Dcat\Admin\Actions\Action;
-use Dcat\Admin\Grid\BatchAction;
-use Dcat\Admin\Grid\Tools;
+use Isifnet\PieAdmin\Actions\Action;
+use Isifnet\PieAdmin\Grid\BatchAction;
+use Isifnet\PieAdmin\Grid\Tools;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
 

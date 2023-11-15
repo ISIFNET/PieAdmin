@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\Show;
+namespace Isifnet\PieAdmin\Show;
 
 class Newline extends Field
 {

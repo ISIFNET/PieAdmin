@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Grid\Displayers;
+namespace Isifnet\PieAdmin\Grid\Displayers;
 
-use Dcat\Admin\Admin;
+use Isifnet\PieAdmin\Admin;
 
 class Select extends AbstractDisplayer
 {

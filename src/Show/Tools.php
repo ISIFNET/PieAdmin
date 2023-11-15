@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Show;
+namespace Isifnet\PieAdmin\Show;
 
-use Dcat\Admin\Form;
-use Dcat\Admin\Support\Helper;
+use Isifnet\PieAdmin\Form;
+use Isifnet\PieAdmin\Support\Helper;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;

@@ -1,13 +1,13 @@
 <?php
 
-namespace Dcat\Admin\Widgets;
+namespace Isifnet\PieAdmin\Widgets;
 
 use Closure;
-use Dcat\Admin\Admin;
-use Dcat\Admin\Contracts\LazyRenderable;
-use Dcat\Admin\Grid\LazyRenderable as LazyGrid;
-use Dcat\Admin\Support\Helper;
-use Dcat\Admin\Traits\InteractsWithRenderApi;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Contracts\LazyRenderable;
+use Isifnet\PieAdmin\Grid\LazyRenderable as LazyGrid;
+use Isifnet\PieAdmin\Support\Helper;
+use Isifnet\PieAdmin\Traits\InteractsWithRenderApi;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Str;
 
@@ -340,7 +340,7 @@ JS;
 
         $this->on('show.bs.modal', <<<JS
 body.html('<div style="min-height:150px"></div>').loading();
-        
+
 setTimeout(function () {
     target.trigger('{$this->target}:load')
 }, {$this->delay});

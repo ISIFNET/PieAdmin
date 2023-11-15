@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\Layout;
+namespace Isifnet\PieAdmin\Layout;
 
 use Illuminate\Contracts\Support\Renderable;
 

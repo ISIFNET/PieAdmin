@@ -1,13 +1,13 @@
 <?php
 
-namespace Dcat\Admin\Http\Repositories;
+namespace Isifnet\PieAdmin\Http\Repositories;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Extend\ServiceProvider as AbstractExtension;
-use Dcat\Admin\Form;
-use Dcat\Admin\Grid;
-use Dcat\Admin\Repositories\Repository;
-use Dcat\Admin\Show;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Extend\ServiceProvider as AbstractExtension;
+use Isifnet\PieAdmin\Form;
+use Isifnet\PieAdmin\Grid;
+use Isifnet\PieAdmin\Repositories\Repository;
+use Isifnet\PieAdmin\Show;
 
 class Extension extends Repository
 {

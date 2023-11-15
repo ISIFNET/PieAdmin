@@ -1,11 +1,11 @@
 <?php
 
-namespace Dcat\Admin\Http\Displayers\Extensions;
+namespace Isifnet\PieAdmin\Http\Displayers\Extensions;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Grid\Displayers\AbstractDisplayer;
-use Dcat\Admin\Http\Actions\Extensions\Update;
-use Dcat\Admin\Widgets\Modal;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Grid\Displayers\AbstractDisplayer;
+use Isifnet\PieAdmin\Http\Actions\Extensions\Update;
+use Isifnet\PieAdmin\Widgets\Modal;
 
 class Description extends AbstractDisplayer
 {

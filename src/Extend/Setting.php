@@ -1,11 +1,11 @@
 <?php
 
-namespace Dcat\Admin\Extend;
+namespace Isifnet\PieAdmin\Extend;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Contracts\LazyRenderable;
-use Dcat\Admin\Traits\LazyWidget;
-use Dcat\Admin\Widgets\Form;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Contracts\LazyRenderable;
+use Isifnet\PieAdmin\Traits\LazyWidget;
+use Isifnet\PieAdmin\Widgets\Form;
 
 abstract class Setting extends Form implements LazyRenderable
 {
@@ -36,7 +36,7 @@ abstract class Setting extends Form implements LazyRenderable
      * 处理请求.
      *
      * @param  array  $input
-     * @return \Dcat\Admin\Http\JsonResponse
+     * @return \Isifnet\PieAdmin\Http\JsonResponse
      */
     public function handle(array $input)
     {

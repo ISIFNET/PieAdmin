@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\Http\Controllers;
+namespace Isifnet\PieAdmin\Http\Controllers;
 
 use Illuminate\Filesystem\FilesystemAdapter;
 use Illuminate\Http\Request;

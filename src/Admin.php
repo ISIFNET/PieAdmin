@@ -1,22 +1,22 @@
 <?php
 
-namespace Dcat\Admin;
+namespace Isifnet\PieAdmin;
 
 use Closure;
-use Dcat\Admin\Contracts\ExceptionHandler;
-use Dcat\Admin\Contracts\Repository;
-use Dcat\Admin\Exception\InvalidArgumentException;
-use Dcat\Admin\Http\Controllers\AuthController;
-use Dcat\Admin\Http\JsonResponse;
-use Dcat\Admin\Layout\Menu;
-use Dcat\Admin\Layout\Navbar;
-use Dcat\Admin\Layout\SectionManager;
-use Dcat\Admin\Repositories\EloquentRepository;
-use Dcat\Admin\Support\Composer;
-use Dcat\Admin\Support\Helper;
-use Dcat\Admin\Traits\HasAssets;
-use Dcat\Admin\Traits\HasHtml;
-use Dcat\Admin\Traits\HasPermissions;
+use Isifnet\PieAdmin\Contracts\ExceptionHandler;
+use Isifnet\PieAdmin\Contracts\Repository;
+use Isifnet\PieAdmin\Exception\InvalidArgumentException;
+use Isifnet\PieAdmin\Http\Controllers\AuthController;
+use Isifnet\PieAdmin\Http\JsonResponse;
+use Isifnet\PieAdmin\Layout\Menu;
+use Isifnet\PieAdmin\Layout\Navbar;
+use Isifnet\PieAdmin\Layout\SectionManager;
+use Isifnet\PieAdmin\Repositories\EloquentRepository;
+use Isifnet\PieAdmin\Support\Composer;
+use Isifnet\PieAdmin\Support\Helper;
+use Isifnet\PieAdmin\Traits\HasAssets;
+use Isifnet\PieAdmin\Traits\HasHtml;
+use Isifnet\PieAdmin\Traits\HasPermissions;
 use Illuminate\Auth\GuardHelpers;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Builder;
@@ -31,7 +31,7 @@ class Admin
     use HasAssets;
     use HasHtml;
 
-    const VERSION = '2.2.2-beta';
+    const VERSION = '2.2.3-dev';
 
     const SECTION = [
         // 往 <head> 标签内输入内容
@@ -72,7 +72,7 @@ class Admin
      */
     public static function longVersion()
     {
-        return sprintf('Dcat Admin <comment>version</comment> <info>%s</info>', static::VERSION);
+        return sprintf('Pie Admin <comment>version</comment> <info>%s</info>', static::VERSION);
     }
 
     /**
@@ -221,7 +221,7 @@ class Admin
     /**
      * 配置.
      *
-     * @return \Dcat\Admin\Support\Setting
+     * @return \Isifnet\PieAdmin\Support\Setting
      */
     public static function setting()
     {
@@ -332,7 +332,7 @@ class Admin
     /**
      * 上下文管理.
      *
-     * @return \Dcat\Admin\Support\Context
+     * @return \Isifnet\PieAdmin\Support\Context
      */
     public static function context()
     {
@@ -342,7 +342,7 @@ class Admin
     /**
      * 翻译器.
      *
-     * @return \Dcat\Admin\Support\Translator
+     * @return \Isifnet\PieAdmin\Support\Translator
      */
     public static function translator()
     {
@@ -440,7 +440,7 @@ class Admin
      * 插件管理.
      *
      * @param  string  $name
-     * @return \Dcat\Admin\Extend\Manager|\Dcat\Admin\Extend\ServiceProvider|null
+     * @return \Isifnet\PieAdmin\Extend\Manager|\Isifnet\PieAdmin\Extend\ServiceProvider|null
      */
     public static function extension(?string $name = null)
     {
@@ -580,7 +580,7 @@ class Admin
         if (config('admin.auth.enable', true)) {
             app('router')->group($attributes, function ($router) {
                 /* @var \Illuminate\Routing\Router $router */
-                $router->namespace('Dcat\Admin\Http\Controllers')->group(function ($router) {
+                $router->namespace('Isifnet\PieAdmin\Http\Controllers')->group(function ($router) {
                     /* @var \Illuminate\Routing\Router $router */
                     $router->resource('auth/users', 'UserController');
                     $router->resource('auth/menu', 'MenuController', ['except' => ['create', 'show']]);
@@ -591,7 +591,7 @@ class Admin
                     }
                 });
 
-                $router->resource('auth/extensions', 'Dcat\Admin\Http\Controllers\ExtensionController', ['only' => ['index', 'store', 'update']]);
+                $router->resource('auth/extensions', 'Isifnet\PieAdmin\Http\Controllers\ExtensionController', ['only' => ['index', 'store', 'update']]);
 
                 $authController = config('admin.auth.controller', AuthController::class);
 
@@ -616,7 +616,7 @@ class Admin
         $attributes = [
             'prefix'     => admin_base_path('dcat-api'),
             'middleware' => config('admin.route.middleware'),
-            'namespace'  => 'Dcat\Admin\Http\Controllers',
+            'namespace'  => 'Isifnet\PieAdmin\Http\Controllers',
             'as'         => 'dcat-api.',
         ];
 
@@ -651,10 +651,10 @@ class Admin
 
         app('router')->group($attributes, function ($router) {
             /* @var \Illuminate\Routing\Router $router */
-            $router->get('helpers/scaffold', 'Dcat\Admin\Http\Controllers\ScaffoldController@index');
-            $router->post('helpers/scaffold', 'Dcat\Admin\Http\Controllers\ScaffoldController@store');
-            $router->post('helpers/scaffold/table', 'Dcat\Admin\Http\Controllers\ScaffoldController@table');
-            $router->get('helpers/icons', 'Dcat\Admin\Http\Controllers\IconController@index');
+            $router->get('helpers/scaffold', 'Isifnet\PieAdmin\Http\Controllers\ScaffoldController@index');
+            $router->post('helpers/scaffold', 'Isifnet\PieAdmin\Http\Controllers\ScaffoldController@store');
+            $router->post('helpers/scaffold/table', 'Isifnet\PieAdmin\Http\Controllers\ScaffoldController@table');
+            $router->get('helpers/icons', 'Isifnet\PieAdmin\Http\Controllers\IconController@index');
         });
     }
 }

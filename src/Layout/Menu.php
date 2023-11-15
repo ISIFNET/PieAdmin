@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Layout;
+namespace Isifnet\PieAdmin\Layout;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Support\Helper;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Support\Helper;
 use Illuminate\Support\Facades\Lang;
 
 class Menu
@@ -196,7 +196,7 @@ class Menu
     /**
      * 判断用户.
      *
-     * @param  array|\Dcat\Admin\Models\Menu  $item
+     * @param  array|\Isifnet\PieAdmin\Models\Menu  $item
      * @return bool
      */
     protected function userCanSeeMenu($item)

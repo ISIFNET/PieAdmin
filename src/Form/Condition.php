@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Form;
+namespace Isifnet\PieAdmin\Form;
 
-use Dcat\Admin\Form;
+use Isifnet\PieAdmin\Form;
 
 /**
  * @mixin Form

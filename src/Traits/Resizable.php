@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\Traits;
+namespace Isifnet\PieAdmin\Traits;
 
 use Illuminate\Support\Str;
 

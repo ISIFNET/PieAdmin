@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Widgets\Metrics;
+namespace Isifnet\PieAdmin\Widgets\Metrics;
 
-use Dcat\Admin\Admin;
+use Isifnet\PieAdmin\Admin;
 
 class Donut extends Card
 {

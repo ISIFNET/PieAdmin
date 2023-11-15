@@ -1,10 +1,10 @@
 <?php
 
-namespace Dcat\Admin\Grid\Displayers;
+namespace Isifnet\PieAdmin\Grid\Displayers;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Grid;
-use Dcat\Admin\Grid\Column;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Grid;
+use Isifnet\PieAdmin\Grid\Column;
 use Illuminate\Support\Fluent;
 
 abstract class AbstractDisplayer

@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Widgets;
+namespace Isifnet\PieAdmin\Widgets;
 
-use Dcat\Admin\Contracts\LazyRenderable;
-use Dcat\Admin\Traits\InteractsWithRenderApi;
+use Isifnet\PieAdmin\Contracts\LazyRenderable;
+use Isifnet\PieAdmin\Traits\InteractsWithRenderApi;
 use Illuminate\Support\Str;
 
 class Lazy extends Widget
@@ -46,7 +46,7 @@ Dcat.init('{$this->getElementSelector()}', function (target) {
     {$this->getRenderableScript()}
 
     body.html('<div style="min-height:150px"></div>').loading();
-    
+
     {$loader}
 });
 JS;

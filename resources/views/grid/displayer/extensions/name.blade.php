@@ -1,6 +1,7 @@
 <div class="d-flex">
     @if($row->logo)
-        <img data-action='preview-img' src='{!! $row->logo !!}' style='max-width:40px;max-height:40px;cursor:pointer' class='img img-thumbnail' />&nbsp;&nbsp;
+        <img data-action='preview-img' src='{!! $row->logo !!}' style='max-width:40px;max-height:40px;cursor:pointer'
+             class='img img-thumbnail'/>&nbsp;&nbsp;
     @endif
 
     <span class="ext-name">
@@ -23,12 +24,12 @@
 
 <div style="height: 10px"></div>
 
-@if($row->type === Dcat\Admin\Extend\ServiceProvider::TYPE_THEME)
+@if($row->type === Isifnet\PieAdmin\Extend\ServiceProvider::TYPE_THEME)
     <span>{{ trans('admin.theme') }}</span>
 @endif
 
 @if($row->version)
-    @if($row->type === Dcat\Admin\Extend\ServiceProvider::TYPE_THEME)
+    @if($row->type === Isifnet\PieAdmin\Extend\ServiceProvider::TYPE_THEME)
         &nbsp;|&nbsp;
     @endif
 
@@ -48,12 +49,15 @@
     .badge {
         max-height: 22px
     }
+
     .hover-display {
-        display:none;
+        display: none;
     }
+
     table tbody tr:hover .hover-display {
         display: inline;
     }
+
     .ext-name {
         font-size: 1.15rem;
     }

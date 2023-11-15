@@ -1,13 +1,13 @@
 <?php
 
-namespace Dcat\Admin\Tree;
+namespace Isifnet\PieAdmin\Tree;
 
-use Dcat\Admin\Actions\Action;
+use Isifnet\PieAdmin\Actions\Action;
 
 class RowAction extends Action
 {
     /**
-     * @var \Dcat\Admin\Tree\Actions;
+     * @var \Isifnet\PieAdmin\Tree\Actions;
      */
     protected $actions;
 

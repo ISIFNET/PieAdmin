@@ -1,10 +1,10 @@
 <?php
 
-namespace Dcat\Admin\Show;
+namespace Isifnet\PieAdmin\Show;
 
-use Dcat\Admin\Grid;
-use Dcat\Admin\Show;
-use Dcat\Admin\Support\Helper;
+use Isifnet\PieAdmin\Grid;
+use Isifnet\PieAdmin\Show;
+use Isifnet\PieAdmin\Support\Helper;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Fluent;
 

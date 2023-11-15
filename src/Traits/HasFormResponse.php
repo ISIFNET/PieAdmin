@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Traits;
+namespace Isifnet\PieAdmin\Traits;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Http\JsonResponse;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\MessageBag;
 

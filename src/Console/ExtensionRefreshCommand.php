@@ -1,14 +1,14 @@
 <?php
 
-namespace Dcat\Admin\Console;
+namespace Isifnet\PieAdmin\Console;
 
-use Dcat\Admin\Admin;
+use Isifnet\PieAdmin\Admin;
 use Illuminate\Console\Command;
 
 class ExtensionRefreshCommand extends Command
 {
-    protected $signature = 'admin:ext-refresh 
-    {name : The name of the extension. Eg: author-name/extension-name} 
+    protected $signature = 'admin:ext-refresh
+    {name : The name of the extension. Eg: author-name/extension-name}
     {--path= : The path of the extension.}';
 
     protected $description = 'Removes and re-adds an existing extension';

@@ -1,16 +1,16 @@
 <?php
 
-namespace Dcat\Admin\Http\Controllers;
+namespace Isifnet\PieAdmin\Http\Controllers;
 
-use Dcat\Admin\Form;
-use Dcat\Admin\Grid;
-use Dcat\Admin\Http\Actions\Extensions\InstallFromLocal;
-use Dcat\Admin\Http\Actions\Extensions\Marketplace;
-use Dcat\Admin\Http\Displayers\Extensions;
-use Dcat\Admin\Http\Repositories\Extension;
-use Dcat\Admin\Layout\Content;
-use Dcat\Admin\Support\Helper;
-use Dcat\Admin\Support\StringOutput;
+use Isifnet\PieAdmin\Form;
+use Isifnet\PieAdmin\Grid;
+use Isifnet\PieAdmin\Http\Actions\Extensions\InstallFromLocal;
+use Isifnet\PieAdmin\Http\Actions\Extensions\Marketplace;
+use Isifnet\PieAdmin\Http\Displayers\Extensions;
+use Isifnet\PieAdmin\Http\Repositories\Extension;
+use Isifnet\PieAdmin\Layout\Content;
+use Isifnet\PieAdmin\Support\Helper;
+use Isifnet\PieAdmin\Support\StringOutput;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Artisan;
 

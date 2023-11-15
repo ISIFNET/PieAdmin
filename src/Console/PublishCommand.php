@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\Console;
+namespace Isifnet\PieAdmin\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;

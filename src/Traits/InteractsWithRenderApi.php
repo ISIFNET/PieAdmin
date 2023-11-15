@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Traits;
+namespace Isifnet\PieAdmin\Traits;
 
-use Dcat\Admin\Contracts\LazyRenderable;
+use Isifnet\PieAdmin\Contracts\LazyRenderable;
 
 /**
  * @property string $target
@@ -56,9 +56,9 @@ trait InteractsWithRenderApi
 target.on('{$this->target}:load', function () {
     Dcat.helpers.asyncRender('{$url}', function (html) {
         body.html(html);
-        
+
         {$this->loadScript}
-        
+
         target.trigger('{$this->target}:loaded');
     });
 });

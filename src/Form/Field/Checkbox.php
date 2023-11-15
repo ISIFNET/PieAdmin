@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Form\Field;
+namespace Isifnet\PieAdmin\Form\Field;
 
-use Dcat\Admin\Support\Helper;
-use Dcat\Admin\Widgets\Checkbox as WidgetCheckbox;
+use Isifnet\PieAdmin\Support\Helper;
+use Isifnet\PieAdmin\Widgets\Checkbox as WidgetCheckbox;
 
 class Checkbox extends MultipleSelect
 {

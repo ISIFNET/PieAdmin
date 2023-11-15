@@ -1,16 +1,16 @@
 <?php
 
-namespace Dcat\Admin\Http\Controllers;
+namespace Isifnet\PieAdmin\Http\Controllers;
 
-use Dcat\Admin\Form;
-use Dcat\Admin\Http\Actions\Menu\Show;
-use Dcat\Admin\Http\Repositories\Menu;
-use Dcat\Admin\Layout\Column;
-use Dcat\Admin\Layout\Content;
-use Dcat\Admin\Layout\Row;
-use Dcat\Admin\Tree;
-use Dcat\Admin\Widgets\Box;
-use Dcat\Admin\Widgets\Form as WidgetForm;
+use Isifnet\PieAdmin\Form;
+use Isifnet\PieAdmin\Http\Actions\Menu\Show;
+use Isifnet\PieAdmin\Http\Repositories\Menu;
+use Isifnet\PieAdmin\Layout\Column;
+use Isifnet\PieAdmin\Layout\Content;
+use Isifnet\PieAdmin\Layout\Row;
+use Isifnet\PieAdmin\Tree;
+use Isifnet\PieAdmin\Widgets\Box;
+use Isifnet\PieAdmin\Widgets\Form as WidgetForm;
 
 class MenuController extends AdminController
 {
@@ -58,7 +58,7 @@ class MenuController extends AdminController
     }
 
     /**
-     * @return \Dcat\Admin\Tree
+     * @return \Isifnet\PieAdmin\Tree
      */
     protected function treeView()
     {

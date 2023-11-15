@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Grid\Filter\Layout;
+namespace Isifnet\PieAdmin\Grid\Filter\Layout;
 
-use Dcat\Admin\Grid\Filter\AbstractFilter;
+use Isifnet\PieAdmin\Grid\Filter\AbstractFilter;
 use Illuminate\Support\Collection;
 
 class Column

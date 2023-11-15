@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Contracts;
+namespace Isifnet\PieAdmin\Contracts;
 
-use Dcat\Admin\Form\Field;
+use Isifnet\PieAdmin\Form\Field;
 use Illuminate\Support\Collection;
 
 interface FieldsCollection

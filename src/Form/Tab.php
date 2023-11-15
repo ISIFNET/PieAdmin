@@ -1,10 +1,10 @@
 <?php
 
-namespace Dcat\Admin\Form;
+namespace Isifnet\PieAdmin\Form;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Form;
-use Dcat\Admin\Widgets\Form as WidgetForm;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Form;
+use Isifnet\PieAdmin\Widgets\Form as WidgetForm;
 use Illuminate\Support\Collection;
 
 class Tab

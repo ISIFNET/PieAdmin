@@ -1,12 +1,12 @@
 <?php
 
-namespace Dcat\Admin\Http\Controllers;
+namespace Isifnet\PieAdmin\Http\Controllers;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Form;
-use Dcat\Admin\Http\Repositories\Permission;
-use Dcat\Admin\Layout\Content;
-use Dcat\Admin\Tree;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Form;
+use Isifnet\PieAdmin\Http\Repositories\Permission;
+use Isifnet\PieAdmin\Layout\Content;
+use Isifnet\PieAdmin\Tree;
 use Illuminate\Support\Str;
 
 class PermissionController extends AdminController

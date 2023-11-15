@@ -1,10 +1,10 @@
 <?php
 
-namespace Dcat\Admin\Traits;
+namespace Isifnet\PieAdmin\Traits;
 
-use Dcat\Admin\Exception\AdminException;
-use Dcat\Admin\Support\Helper;
-use Dcat\Admin\Tree;
+use Isifnet\PieAdmin\Exception\AdminException;
+use Isifnet\PieAdmin\Support\Helper;
+use Isifnet\PieAdmin\Tree;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;

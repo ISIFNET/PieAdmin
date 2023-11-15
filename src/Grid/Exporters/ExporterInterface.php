@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\Grid\Exporters;
+namespace Isifnet\PieAdmin\Grid\Exporters;
 
 interface ExporterInterface
 {

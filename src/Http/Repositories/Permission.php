@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Http\Repositories;
+namespace Isifnet\PieAdmin\Http\Repositories;
 
-use Dcat\Admin\Repositories\EloquentRepository;
+use Isifnet\PieAdmin\Repositories\EloquentRepository;
 
 class Permission extends EloquentRepository
 {

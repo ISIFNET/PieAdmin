@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Grid\Column;
+namespace Isifnet\PieAdmin\Grid\Column;
 
-use Dcat\Admin\Grid;
+use Isifnet\PieAdmin\Grid;
 use Illuminate\Contracts\Support\Renderable;
 
 class Sorter implements Renderable

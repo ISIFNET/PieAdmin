@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Grid\Tools;
+namespace Isifnet\PieAdmin\Grid\Tools;
 
-use Dcat\Admin\Grid;
+use Isifnet\PieAdmin\Grid;
 
 abstract class AbstractTool extends Grid\GridAction
 {

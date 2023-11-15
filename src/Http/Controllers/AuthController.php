@@ -1,12 +1,12 @@
 <?php
 
-namespace Dcat\Admin\Http\Controllers;
+namespace Isifnet\PieAdmin\Http\Controllers;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Form;
-use Dcat\Admin\Http\Repositories\Administrator;
-use Dcat\Admin\Layout\Content;
-use Dcat\Admin\Traits\HasFormResponse;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Form;
+use Isifnet\PieAdmin\Http\Repositories\Administrator;
+use Isifnet\PieAdmin\Layout\Content;
+use Isifnet\PieAdmin\Traits\HasFormResponse;
 use Illuminate\Auth\GuardHelpers;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;

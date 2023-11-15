@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Widgets;
+namespace Isifnet\PieAdmin\Widgets;
 
-use Dcat\Admin\Grid\LazyRenderable as LazyGrid;
-use Dcat\Admin\Traits\LazyWidget;
+use Isifnet\PieAdmin\Grid\LazyRenderable as LazyGrid;
+use Isifnet\PieAdmin\Traits\LazyWidget;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Str;
 

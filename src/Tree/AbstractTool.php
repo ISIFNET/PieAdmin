@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Tree;
+namespace Isifnet\PieAdmin\Tree;
 
-use Dcat\Admin\Actions\Action;
-use Dcat\Admin\Tree;
+use Isifnet\PieAdmin\Actions\Action;
+use Isifnet\PieAdmin\Tree;
 
 abstract class AbstractTool extends Action
 {

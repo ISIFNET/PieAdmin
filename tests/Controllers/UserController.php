@@ -2,11 +2,11 @@
 
 namespace Tests\Controllers;
 
-use Dcat\Admin\Form;
-use Dcat\Admin\Grid;
-use Dcat\Admin\Http\Controllers\AdminController;
-use Dcat\Admin\Layout\Content;
-use Dcat\Admin\Show;
+use Isifnet\PieAdmin\Form;
+use Isifnet\PieAdmin\Grid;
+use Isifnet\PieAdmin\Http\Controllers\AdminController;
+use Isifnet\PieAdmin\Layout\Content;
+use Isifnet\PieAdmin\Show;
 use Tests\Models\Tag;
 use Tests\Repositories\User;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace Dcat\Admin\Actions;
+namespace Isifnet\PieAdmin\Actions;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Support\Helper;
-use Dcat\Admin\Traits\HasHtmlAttributes;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Support\Helper;
+use Isifnet\PieAdmin\Traits\HasHtmlAttributes;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Str;
 

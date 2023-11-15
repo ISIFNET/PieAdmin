@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\Grid\Tools;
+namespace Isifnet\PieAdmin\Grid\Tools;
 
 use Illuminate\Contracts\Support\Renderable;
 

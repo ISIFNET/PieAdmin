@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\Scaffold;
+namespace Isifnet\PieAdmin\Scaffold;
 
 trait FormCreator
 {
@@ -36,7 +36,7 @@ EOF
         }
         if ($timestamps) {
             $rows[] = <<<'EOF'
-        
+
             $form->display('created_at');
             $form->display('updated_at');
 EOF;

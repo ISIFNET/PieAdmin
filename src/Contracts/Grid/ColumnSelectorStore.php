@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Contracts\Grid;
+namespace Isifnet\PieAdmin\Contracts\Grid;
 
-use Dcat\Admin\Grid;
+use Isifnet\PieAdmin\Grid;
 
 interface ColumnSelectorStore
 {

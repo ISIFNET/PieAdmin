@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Support;
+namespace Isifnet\PieAdmin\Support;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Models\Setting as Model;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Models\Setting as Model;
 use Illuminate\Database\QueryException;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Fluent;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Grid\Filter\Presenter;
+namespace Isifnet\PieAdmin\Grid\Filter\Presenter;
 
-use Dcat\Admin\Admin;
+use Isifnet\PieAdmin\Admin;
 
 class MultipleSelect extends Select
 {
@@ -25,7 +25,7 @@ $(document).on('change', ".{$this->getElementClass()}", function () {
     var ids = $(this).find("option:selected").map(function(index,elem) {
             return $(elem).val();
         }).get().join(',');
-     
+
     $.ajax("$resourceUrl?q="+ids).then(function (data) {
         target.find("option").remove();
         $.each(data, function (i, item) {
@@ -34,7 +34,7 @@ $(document).on('change', ".{$this->getElementClass()}", function () {
                 text : item.$textField
             }));
         });
-        
+
         $(target).trigger('change');
     });
 });

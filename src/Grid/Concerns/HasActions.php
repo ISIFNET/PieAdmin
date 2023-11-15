@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Grid\Concerns;
+namespace Isifnet\PieAdmin\Grid\Concerns;
 
 use Closure;
-use Dcat\Admin\Grid;
+use Isifnet\PieAdmin\Grid;
 use Illuminate\Contracts\Support\Renderable;
 
 trait HasActions

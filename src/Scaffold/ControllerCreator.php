@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Scaffold;
+namespace Isifnet\PieAdmin\Scaffold;
 
-use Dcat\Admin\Exception\AdminException;
-use Dcat\Admin\Support\Helper;
+use Isifnet\PieAdmin\Exception\AdminException;
+use Isifnet\PieAdmin\Support\Helper;
 
 class ControllerCreator
 {

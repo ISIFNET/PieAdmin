@@ -1,11 +1,11 @@
 <?php
 
-namespace Dcat\Admin\Widgets\ApexCharts;
+namespace Isifnet\PieAdmin\Widgets\ApexCharts;
 
-use Dcat\Admin\Support\Helper;
-use Dcat\Admin\Support\JavaScript;
-use Dcat\Admin\Traits\InteractsWithApi;
-use Dcat\Admin\Widgets\Widget;
+use Isifnet\PieAdmin\Support\Helper;
+use Isifnet\PieAdmin\Support\JavaScript;
+use Isifnet\PieAdmin\Traits\InteractsWithApi;
+use Isifnet\PieAdmin\Widgets\Widget;
 use Illuminate\Support\Str;
 
 /**
@@ -202,7 +202,7 @@ class Chart extends Widget
     var options = {$options};
 
     var chart = new ApexCharts(
-        $("{$this->containerSelector}")[0], 
+        $("{$this->containerSelector}")[0],
         options
     );
     chart.render();
@@ -233,7 +233,7 @@ if (chartBox.length) {
     if (typeof response.options === 'string') {
         eval(response.options);
     }
-    
+
     setTimeout(function () {
         new ApexCharts(chartBox[0], response.options).render();
     }, 50);

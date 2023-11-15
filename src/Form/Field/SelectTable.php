@@ -1,11 +1,11 @@
 <?php
 
-namespace Dcat\Admin\Form\Field;
+namespace Isifnet\PieAdmin\Form\Field;
 
-use Dcat\Admin\Form\Field;
-use Dcat\Admin\Grid\LazyRenderable;
-use Dcat\Admin\Support\Helper;
-use Dcat\Admin\Widgets\DialogTable;
+use Isifnet\PieAdmin\Form\Field;
+use Isifnet\PieAdmin\Grid\LazyRenderable;
+use Isifnet\PieAdmin\Support\Helper;
+use Isifnet\PieAdmin\Widgets\DialogTable;
 
 class SelectTable extends Field
 {

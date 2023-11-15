@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Grid\Filter\Presenter;
+namespace Isifnet\PieAdmin\Grid\Filter\Presenter;
 
-use Dcat\Admin\Admin;
+use Isifnet\PieAdmin\Admin;
 
 class MultipleSelectTable extends SelectTable
 {

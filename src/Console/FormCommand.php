@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\Console;
+namespace Isifnet\PieAdmin\Console;
 
 class FormCommand extends GeneratorCommand
 {
@@ -9,7 +9,7 @@ class FormCommand extends GeneratorCommand
      *
      * @var string
      */
-    protected $signature = 'admin:form {name} 
+    protected $signature = 'admin:form {name}
         {--namespace=}
         {--base=}';
 

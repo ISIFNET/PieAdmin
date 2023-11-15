@@ -1,11 +1,11 @@
 <?php
 
-namespace Dcat\Admin\Traits;
+namespace Isifnet\PieAdmin\Traits;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Form\Field\File;
-use Dcat\Admin\Support\Helper;
-use Dcat\Admin\Support\WebUploader;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Form\Field\File;
+use Isifnet\PieAdmin\Support\Helper;
+use Isifnet\PieAdmin\Support\WebUploader;
 use Illuminate\Filesystem\FilesystemAdapter;
 use Illuminate\Support\Facades\Storage;
 

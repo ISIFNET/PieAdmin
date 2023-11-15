@@ -1,11 +1,11 @@
 <?php
 
-namespace Dcat\Admin\Grid\Concerns;
+namespace Isifnet\PieAdmin\Grid\Concerns;
 
-use Dcat\Admin\Grid;
-use Dcat\Admin\Grid\Exporter;
-use Dcat\Admin\Grid\Exporters\AbstractExporter;
-use Dcat\Admin\Grid\Tools;
+use Isifnet\PieAdmin\Grid;
+use Isifnet\PieAdmin\Grid\Exporter;
+use Isifnet\PieAdmin\Grid\Exporters\AbstractExporter;
+use Isifnet\PieAdmin\Grid\Tools;
 
 trait HasExporter
 {

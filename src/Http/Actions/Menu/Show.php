@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Http\Actions\Menu;
+namespace Isifnet\PieAdmin\Http\Actions\Menu;
 
-use Dcat\Admin\Tree\RowAction;
+use Isifnet\PieAdmin\Tree\RowAction;
 
 class Show extends RowAction
 {

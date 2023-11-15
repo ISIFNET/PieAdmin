@@ -2,7 +2,7 @@
 
 namespace Tests\Feature;
 
-use Dcat\Admin\Admin;
+use Isifnet\PieAdmin\Admin;
 use Tests\TestCase;
 
 /**

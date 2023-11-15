@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Grid\Filter;
+namespace Isifnet\PieAdmin\Grid\Filter;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Grid\Filter;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Grid\Filter;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 

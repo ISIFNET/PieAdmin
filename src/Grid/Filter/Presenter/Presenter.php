@@ -1,10 +1,10 @@
 <?php
 
-namespace Dcat\Admin\Grid\Filter\Presenter;
+namespace Isifnet\PieAdmin\Grid\Filter\Presenter;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Grid\Filter\AbstractFilter;
-use Dcat\Admin\Traits\HasVariables;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Grid\Filter\AbstractFilter;
+use Isifnet\PieAdmin\Traits\HasVariables;
 
 abstract class Presenter
 {

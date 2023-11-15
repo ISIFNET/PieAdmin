@@ -1,10 +1,10 @@
 <?php
 
-namespace Dcat\Admin\Layout;
+namespace Isifnet\PieAdmin\Layout;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Grid;
-use Dcat\Admin\Support\Helper;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Grid;
+use Isifnet\PieAdmin\Support\Helper;
 use Illuminate\Contracts\Support\Renderable;
 
 class Column implements Renderable

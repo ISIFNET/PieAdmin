@@ -1,8 +1,8 @@
 <?php
 
-namespace Dcat\Admin\Grid\Concerns;
+namespace Isifnet\PieAdmin\Grid\Concerns;
 
-use Dcat\Admin\Grid\Tools;
+use Isifnet\PieAdmin\Grid\Tools;
 
 trait HasPaginator
 {
@@ -73,7 +73,7 @@ trait HasPaginator
     /**
      * Get the grid paginator.
      *
-     * @return \Dcat\Admin\Grid\Tools\Paginator
+     * @return \Isifnet\PieAdmin\Grid\Tools\Paginator
      */
     public function paginator()
     {

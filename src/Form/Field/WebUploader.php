@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Form\Field;
+namespace Isifnet\PieAdmin\Form\Field;
 
-use Dcat\Admin\Form;
-use Dcat\Admin\Support\WebUploader as WebUploaderHelper;
+use Isifnet\PieAdmin\Form;
+use Isifnet\PieAdmin\Support\WebUploader as WebUploaderHelper;
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Str;
 

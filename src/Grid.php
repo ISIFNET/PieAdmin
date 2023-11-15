@@ -1,17 +1,17 @@
 <?php
 
-namespace Dcat\Admin;
+namespace Isifnet\PieAdmin;
 
 use Closure;
-use Dcat\Admin\Contracts\Repository;
-use Dcat\Admin\Grid\Column;
-use Dcat\Admin\Grid\Concerns;
-use Dcat\Admin\Grid\Model;
-use Dcat\Admin\Grid\Row;
-use Dcat\Admin\Grid\Tools;
-use Dcat\Admin\Support\Helper;
-use Dcat\Admin\Traits\HasBuilderEvents;
-use Dcat\Admin\Traits\HasVariables;
+use Isifnet\PieAdmin\Contracts\Repository;
+use Isifnet\PieAdmin\Grid\Column;
+use Isifnet\PieAdmin\Grid\Concerns;
+use Isifnet\PieAdmin\Grid\Model;
+use Isifnet\PieAdmin\Grid\Row;
+use Isifnet\PieAdmin\Grid\Tools;
+use Isifnet\PieAdmin\Support\Helper;
+use Isifnet\PieAdmin\Traits\HasBuilderEvents;
+use Isifnet\PieAdmin\Traits\HasVariables;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Collection;
@@ -45,7 +45,7 @@ class Grid
     /**
      * The grid data model instance.
      *
-     * @var \Dcat\Admin\Grid\Model
+     * @var \Isifnet\PieAdmin\Grid\Model
      */
     protected $model;
 

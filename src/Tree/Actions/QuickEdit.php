@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Tree\Actions;
+namespace Isifnet\PieAdmin\Tree\Actions;
 
-use Dcat\Admin\Form;
-use Dcat\Admin\Tree\RowAction;
+use Isifnet\PieAdmin\Form;
+use Isifnet\PieAdmin\Tree\RowAction;
 
 class QuickEdit extends RowAction
 {

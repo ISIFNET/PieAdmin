@@ -1,9 +1,9 @@
 <?php
 
-namespace Dcat\Admin\Grid\Column\Filter;
+namespace Isifnet\PieAdmin\Grid\Column\Filter;
 
-use Dcat\Admin\Grid\Column\Filter;
-use Dcat\Admin\Grid\Model;
+use Isifnet\PieAdmin\Grid\Column\Filter;
+use Isifnet\PieAdmin\Grid\Model;
 
 class In extends Filter
 {

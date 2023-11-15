@@ -2,11 +2,11 @@
 
 namespace Tests\Controllers;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Layout\Content;
-use Dcat\Admin\Layout\Row;
-use Dcat\Admin\Widgets\Box;
-use Dcat\Admin\Widgets\Dropdown;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Layout\Content;
+use Isifnet\PieAdmin\Layout\Row;
+use Isifnet\PieAdmin\Widgets\Box;
+use Isifnet\PieAdmin\Widgets\Dropdown;
 use Illuminate\Routing\Controller;
 
 class DropdownController extends Controller

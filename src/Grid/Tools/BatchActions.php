@@ -1,10 +1,10 @@
 <?php
 
-namespace Dcat\Admin\Grid\Tools;
+namespace Isifnet\PieAdmin\Grid\Tools;
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Grid\BatchAction;
-use Dcat\Admin\Traits\HasVariables;
+use Isifnet\PieAdmin\Admin;
+use Isifnet\PieAdmin\Grid\BatchAction;
+use Isifnet\PieAdmin\Traits\HasVariables;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Traits\Macroable;
 

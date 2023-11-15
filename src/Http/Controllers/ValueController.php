@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\Http\Controllers;
+namespace Isifnet\PieAdmin\Http\Controllers;
 
 use Exception;
 use Illuminate\Http\Request;
@@ -32,7 +32,7 @@ class ValueController
 
     /**
      * @param  Request  $request
-     * @return \Dcat\Admin\Traits\InteractsWithApi
+     * @return \Isifnet\PieAdmin\Traits\InteractsWithApi
      *
      * @throws Exception
      */

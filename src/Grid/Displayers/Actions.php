@@ -1,14 +1,14 @@
 <?php
 
-namespace Dcat\Admin\Grid\Displayers;
+namespace Isifnet\PieAdmin\Grid\Displayers;
 
-use Dcat\Admin\Actions\Action;
-use Dcat\Admin\Grid\Actions\Delete;
-use Dcat\Admin\Grid\Actions\Edit;
-use Dcat\Admin\Grid\Actions\QuickEdit;
-use Dcat\Admin\Grid\Actions\Show;
-use Dcat\Admin\Grid\RowAction;
-use Dcat\Admin\Support\Helper;
+use Isifnet\PieAdmin\Actions\Action;
+use Isifnet\PieAdmin\Grid\Actions\Delete;
+use Isifnet\PieAdmin\Grid\Actions\Edit;
+use Isifnet\PieAdmin\Grid\Actions\QuickEdit;
+use Isifnet\PieAdmin\Grid\Actions\Show;
+use Isifnet\PieAdmin\Grid\RowAction;
+use Isifnet\PieAdmin\Support\Helper;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Traits\Macroable;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Dcat\Admin\Exception;
+namespace Isifnet\PieAdmin\Exception;
 
 use Exception;
 
