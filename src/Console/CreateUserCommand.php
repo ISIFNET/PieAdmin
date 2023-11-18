@@ -35,6 +35,11 @@ class CreateUserCommand extends Command
         $name = $this->ask('Please enter a name to display');
 
         $roles = $roleModel::all();
+        if ($roles->isEmpty()) {
+            $this->warn("You don't have any roles in your database.");
+            $this->warn("Please create a role with `php artisan admin:create-role` command.");
+            return;
+        }
 
         /** @var array $selected */
         $selected = $this->choice('Please choose a role for the user', $roles->pluck('name')->toArray(), null, null, true);

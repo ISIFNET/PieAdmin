@@ -32,6 +32,7 @@ class AdminServiceProvider extends ServiceProvider
         Console\PublishCommand::class,
         Console\UninstallCommand::class,
         Console\CreateUserCommand::class,
+        Console\CreateRoleCommand::class,
         Console\ResetPasswordCommand::class,
         Console\ExportSeedCommand::class,
         Console\IdeHelperCommand::class,
@@ -168,9 +169,9 @@ class AdminServiceProvider extends ServiceProvider
     protected function registerPublishing()
     {
         if ($this->app->runningInConsole()) {
-            $this->publishes([__DIR__.'/../config' => config_path()], 'dcat-admin-config');
-            $this->publishes([__DIR__.'/../resources/lang' => $this->app->langPath()], 'dcat-admin-lang');
-            $this->publishes([__DIR__.'/../database/migrations' => database_path('migrations')], 'dcat-admin-migrations');
+            $this->publishes([__DIR__.'/../config' => config_path()], 'pie-admin-config');
+            $this->publishes([__DIR__.'/../resources/lang' => $this->app->langPath()], 'pie-admin-lang');
+            $this->publishes([__DIR__.'/../database/migrations' => database_path('migrations')], 'pie-admin-migrations');
             $this->publishes([__DIR__.'/../resources/dist' => public_path(Admin::asset()->getRealPath('@admin'))], 'dcat-admin-assets');
         }
     }

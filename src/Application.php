@@ -113,14 +113,14 @@ class Application
 
     public function getApiRoutePrefix(?string $app = null)
     {
-        return $this->getRoutePrefix($app).'dcat-api.';
+        return $this->getRoutePrefix($app).'pie-api.';
     }
 
     public function getRoutePrefix(?string $app = null)
     {
         $app = $app ?: $this->getName();
 
-        return 'dcat.'.$app.'.';
+        return 'pie.'.$app.'.';
     }
 
     public function getRoute(?string $route, array $params = [], $absolute = true)

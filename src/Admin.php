@@ -31,7 +31,7 @@ class Admin
     use HasAssets;
     use HasHtml;
 
-    const VERSION = '2.2.3-dev';
+    const VERSION = '2.2.5';
 
     const SECTION = [
         // 往 <head> 标签内输入内容
@@ -614,10 +614,10 @@ class Admin
     public static function registerApiRoutes()
     {
         $attributes = [
-            'prefix'     => admin_base_path('dcat-api'),
+            'prefix'     => admin_base_path('pie-api'),
             'middleware' => config('admin.route.middleware'),
             'namespace'  => 'Isifnet\PieAdmin\Http\Controllers',
-            'as'         => 'dcat-api.',
+            'as'         => 'pie-api.',
         ];
 
         app('router')->group($attributes, function ($router) {

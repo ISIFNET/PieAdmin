@@ -8,7 +8,7 @@ use Isifnet\PieAdmin\Traits\HasAuthorization;
 trait HasActionHandler
 {
     use HasAuthorization {
-        failedAuthorization as parentFailedAuthorization;
+        HasAuthorization::failedAuthorization as parentFailedAuthorization;
     }
 
     /**

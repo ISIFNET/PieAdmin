@@ -75,25 +75,25 @@ class PublishCommand extends Command
         $tags = [];
 
         if ($this->option('lang')) {
-            $this->tags[] = 'dcat-admin-lang';
+            $this->tags[] = 'pie-admin-lang';
         }
         if ($this->option('migrations')) {
-            $tags[] = 'dcat-admin-migrations';
+            $tags[] = 'pie-admin-migrations';
         }
         if ($this->option('assets')) {
-            $tags[] = 'dcat-admin-assets';
+            $tags[] = 'pie-admin-assets';
         }
         if ($this->option('config')) {
-            $tags[] = 'dcat-admin-config';
+            $tags[] = 'pie-admin-config';
         }
 
         // 设置默认标签.
         if (! $tags && ! $this->tags) {
             $this->tags[] = 'dcat-admin-lang';
             $tags = [
-                'dcat-admin-migrations',
-                'dcat-admin-assets',
-                'dcat-admin-config',
+                'pie-admin-migrations',
+                'pie-admin-assets',
+                'pie-admin-config',
             ];
         }
 

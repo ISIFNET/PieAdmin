@@ -22,7 +22,7 @@ return [
     | `img` tag, eg '<img src="http://logo-url" alt="Admin logo">'.
     |
     */
-    'logo' => '<img src="/vendor/dcat-admin/images/logo.png" width="35"> &nbsp;Dcat Admin',
+    'logo' => 'Dcat Admin',
 
     /*
     |--------------------------------------------------------------------------
@@ -34,7 +34,8 @@ return [
     | '<img src="http://logo-url" alt="Admin logo">'.
     |
     */
-    'logo-mini' => '<img src="/vendor/dcat-admin/images/logo.png">',
+    //TODO Logo
+    'logo-mini' => '">',
 
     /*
     |--------------------------------------------------------------------------
@@ -78,7 +79,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | dcat-admin install directory
+    | pie-admin install directory
     |--------------------------------------------------------------------------
     |
     | The installation directory of the controller and routing configuration
@@ -90,7 +91,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | dcat-admin html title
+    | pie-admin html title
     |--------------------------------------------------------------------------
     |
     | Html title for all pages.
@@ -118,7 +119,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | dcat-admin auth setting
+    | pie-admin auth setting
     |--------------------------------------------------------------------------
     |
     | Authentication settings for all admin pages. Include an authentication
@@ -196,7 +197,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | dcat-admin helpers setting.
+    | pie-admin helpers setting.
     |--------------------------------------------------------------------------
     */
     'helpers' => [
@@ -205,7 +206,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | dcat-admin permission setting
+    | pie-admin permission setting
     |--------------------------------------------------------------------------
     |
     | Permission settings for all admin pages.
@@ -227,7 +228,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | dcat-admin menu setting
+    | pie-admin menu setting
     |--------------------------------------------------------------------------
     |
     */
@@ -252,7 +253,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | dcat-admin upload setting
+    | pie-admin upload setting
     |--------------------------------------------------------------------------
     |
     | File system configuration for form upload files and images, including
@@ -274,10 +275,10 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | dcat-admin database settings
+    | pie-admin database settings
     |--------------------------------------------------------------------------
     |
-    | Here are database settings for dcat-admin builtin model & tables.
+    | Here are database settings for pie-admin builtin model & tables.
     |
     */
     'database' => [
@@ -363,6 +364,6 @@ return [
     'extension' => [
         // When you use command `php artisan admin:ext-make` to generate extensions,
         // the extension files will be generated in this directory.
-        'dir' => base_path('dcat-admin-extensions'),
+        'dir' => base_path('pie-admin-extensions'),
     ],
 ];
